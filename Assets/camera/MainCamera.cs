@@ -6,6 +6,9 @@ public class MainCamera : MonoBehaviour {
 	private Vector2 nil = new Vector2(-999999, -999999);
 	private float moveRate = 0.1f;
 	private float zoomRate = 100.0f;
+	private float minOrthoSize = 1f;
+	private float maxOrthoSize = 20f;
+
 	GameObject skillTreeRoot;
 	Vector2 lastMousePos;
 
@@ -42,8 +45,7 @@ public class MainCamera : MonoBehaviour {
 		// Check for zoom in/out
 		float wheel = Input.GetAxis("Mouse ScrollWheel");
 		if (wheel != 0) {
-			movement.z = wheel * zoomRate;
-			skillTreeRoot.transform.localScale.Scale(wheel);
+			camera.orthographicSize = Mathf.Clamp(camera.orthographicSize - wheel, minOrthoSize, maxOrthoSize);
 		}
 
 		// Move the camera if input given
