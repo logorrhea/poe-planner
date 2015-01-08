@@ -1,27 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(SpriteRenderer))]
+[ExecuteInEditMode]
 public class SkillFrame : MonoBehaviour {
 
-	public Sprite unallocatedSprite;
-	public Sprite allocatedSprite;
+	public Sprite unallocatedIcon;
+	public Sprite allocatedIcon;
+	public Sprite unallocatedBorder;
+	public Sprite allocatedBorder;
 
 	public bool allocated;
+	private bool previouslyAllocated = false;
 
-	private SpriteRenderer renderer;
+	public GameObject iconObj;
+	public GameObject borderObj;
+
+	/** References to the SpriteRenderers for the border and icon */
+	private SpriteRenderer border;
+	private SpriteRenderer icon;
 
 	// Use this for initialization
 	void Start () {
-		renderer = GetComponent<SpriteRenderer>();
+		border = borderObj.GetComponent<SpriteRenderer>();
+		icon = iconObj.GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (allocated) {
-			renderer.sprite = allocatedSprite;
-		} else {
-			renderer.sprite = unallocatedSprite;
+
+		// Only change the sprites if the node changed
+		if (allocated && !previouslyAllocated) {
+			border.sprite = allocatedBorder;
+			icon.sprite = allocatedIcon;
+		} else if (!allocated && previouslyAllocated) {
+			border.sprite = unallocatedBorder;
+			icon.sprite = unallocatedIcon;
 		}
+	
 	}
 }
