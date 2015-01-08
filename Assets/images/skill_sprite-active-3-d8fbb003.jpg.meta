@@ -3,6 +3,400 @@ guid: 11d8c34797a5e4b06bb3443d5cf74d78
 TextureImporter:
   fileIDToRecycleName:
     21300000: skill_sprite-active-3-d8fbb003
+    21300002: skill_sprite-active-3-d8fbb003_0
+    21300004: skill_sprite-active-3-d8fbb003_1
+    21300006: skill_sprite-active-3-d8fbb003_2
+    21300008: skill_sprite-active-3-d8fbb003_3
+    21300010: skill_sprite-active-3-d8fbb003_4
+    21300012: skill_sprite-active-3-d8fbb003_5
+    21300014: skill_sprite-active-3-d8fbb003_6
+    21300016: skill_sprite-active-3-d8fbb003_7
+    21300018: skill_sprite-active-3-d8fbb003_8
+    21300020: skill_sprite-active-3-d8fbb003_9
+    21300022: skill_sprite-active-3-d8fbb003_10
+    21300024: skill_sprite-active-3-d8fbb003_11
+    21300026: skill_sprite-active-3-d8fbb003_12
+    21300028: skill_sprite-active-3-d8fbb003_13
+    21300030: skill_sprite-active-3-d8fbb003_14
+    21300032: skill_sprite-active-3-d8fbb003_15
+    21300034: skill_sprite-active-3-d8fbb003_16
+    21300036: skill_sprite-active-3-d8fbb003_17
+    21300038: skill_sprite-active-3-d8fbb003_18
+    21300040: skill_sprite-active-3-d8fbb003_19
+    21300042: skill_sprite-active-3-d8fbb003_20
+    21300044: skill_sprite-active-3-d8fbb003_21
+    21300046: skill_sprite-active-3-d8fbb003_22
+    21300048: skill_sprite-active-3-d8fbb003_23
+    21300050: skill_sprite-active-3-d8fbb003_24
+    21300052: skill_sprite-active-3-d8fbb003_25
+    21300054: skill_sprite-active-3-d8fbb003_26
+    21300056: skill_sprite-active-3-d8fbb003_27
+    21300058: skill_sprite-active-3-d8fbb003_28
+    21300060: skill_sprite-active-3-d8fbb003_29
+    21300062: skill_sprite-active-3-d8fbb003_30
+    21300064: skill_sprite-active-3-d8fbb003_31
+    21300066: skill_sprite-active-3-d8fbb003_32
+    21300068: skill_sprite-active-3-d8fbb003_33
+    21300070: skill_sprite-active-3-d8fbb003_34
+    21300072: skill_sprite-active-3-d8fbb003_35
+    21300074: skill_sprite-active-3-d8fbb003_36
+    21300076: skill_sprite-active-3-d8fbb003_37
+    21300078: skill_sprite-active-3-d8fbb003_38
+    21300080: skill_sprite-active-3-d8fbb003_39
+    21300082: skill_sprite-active-3-d8fbb003_40
+    21300084: skill_sprite-active-3-d8fbb003_41
+    21300086: skill_sprite-active-3-d8fbb003_42
+    21300088: skill_sprite-active-3-d8fbb003_43
+    21300090: skill_sprite-active-3-d8fbb003_44
+    21300092: skill_sprite-active-3-d8fbb003_45
+    21300094: skill_sprite-active-3-d8fbb003_46
+    21300096: skill_sprite-active-3-d8fbb003_47
+    21300098: skill_sprite-active-3-d8fbb003_48
+    21300100: skill_sprite-active-3-d8fbb003_49
+    21300102: skill_sprite-active-3-d8fbb003_50
+    21300104: skill_sprite-active-3-d8fbb003_51
+    21300106: skill_sprite-active-3-d8fbb003_52
+    21300108: skill_sprite-active-3-d8fbb003_53
+    21300110: skill_sprite-active-3-d8fbb003_54
+    21300112: skill_sprite-active-3-d8fbb003_55
+    21300114: skill_sprite-active-3-d8fbb003_56
+    21300116: skill_sprite-active-3-d8fbb003_57
+    21300118: skill_sprite-active-3-d8fbb003_58
+    21300120: skill_sprite-active-3-d8fbb003_59
+    21300122: skill_sprite-active-3-d8fbb003_60
+    21300124: skill_sprite-active-3-d8fbb003_61
+    21300126: skill_sprite-active-3-d8fbb003_62
+    21300128: skill_sprite-active-3-d8fbb003_63
+    21300130: skill_sprite-active-3-d8fbb003_64
+    21300132: skill_sprite-active-3-d8fbb003_65
+    21300134: skill_sprite-active-3-d8fbb003_66
+    21300136: skill_sprite-active-3-d8fbb003_67
+    21300138: skill_sprite-active-3-d8fbb003_68
+    21300140: skill_sprite-active-3-d8fbb003_69
+    21300142: skill_sprite-active-3-d8fbb003_70
+    21300144: skill_sprite-active-3-d8fbb003_71
+    21300146: skill_sprite-active-3-d8fbb003_72
+    21300148: skill_sprite-active-3-d8fbb003_73
+    21300150: skill_sprite-active-3-d8fbb003_74
+    21300152: skill_sprite-active-3-d8fbb003_75
+    21300154: skill_sprite-active-3-d8fbb003_76
+    21300156: skill_sprite-active-3-d8fbb003_77
+    21300158: skill_sprite-active-3-d8fbb003_78
+    21300160: skill_sprite-active-3-d8fbb003_79
+    21300162: skill_sprite-active-3-d8fbb003_80
+    21300164: skill_sprite-active-3-d8fbb003_81
+    21300166: skill_sprite-active-3-d8fbb003_82
+    21300168: skill_sprite-active-3-d8fbb003_83
+    21300170: skill_sprite-active-3-d8fbb003_84
+    21300172: skill_sprite-active-3-d8fbb003_85
+    21300174: skill_sprite-active-3-d8fbb003_86
+    21300176: skill_sprite-active-3-d8fbb003_87
+    21300178: skill_sprite-active-3-d8fbb003_88
+    21300180: skill_sprite-active-3-d8fbb003_89
+    21300182: skill_sprite-active-3-d8fbb003_90
+    21300184: skill_sprite-active-3-d8fbb003_91
+    21300186: skill_sprite-active-3-d8fbb003_92
+    21300188: skill_sprite-active-3-d8fbb003_93
+    21300190: skill_sprite-active-3-d8fbb003_94
+    21300192: skill_sprite-active-3-d8fbb003_95
+    21300194: skill_sprite-active-3-d8fbb003_96
+    21300196: skill_sprite-active-3-d8fbb003_97
+    21300198: skill_sprite-active-3-d8fbb003_98
+    21300200: skill_sprite-active-3-d8fbb003_99
+    21300202: skill_sprite-active-3-d8fbb003_100
+    21300204: skill_sprite-active-3-d8fbb003_101
+    21300206: skill_sprite-active-3-d8fbb003_102
+    21300208: skill_sprite-active-3-d8fbb003_103
+    21300210: skill_sprite-active-3-d8fbb003_104
+    21300212: skill_sprite-active-3-d8fbb003_105
+    21300214: skill_sprite-active-3-d8fbb003_106
+    21300216: skill_sprite-active-3-d8fbb003_107
+    21300218: skill_sprite-active-3-d8fbb003_108
+    21300220: skill_sprite-active-3-d8fbb003_109
+    21300222: skill_sprite-active-3-d8fbb003_110
+    21300224: skill_sprite-active-3-d8fbb003_111
+    21300226: skill_sprite-active-3-d8fbb003_112
+    21300228: skill_sprite-active-3-d8fbb003_113
+    21300230: skill_sprite-active-3-d8fbb003_114
+    21300232: skill_sprite-active-3-d8fbb003_115
+    21300234: skill_sprite-active-3-d8fbb003_116
+    21300236: skill_sprite-active-3-d8fbb003_117
+    21300238: skill_sprite-active-3-d8fbb003_118
+    21300240: skill_sprite-active-3-d8fbb003_119
+    21300242: skill_sprite-active-3-d8fbb003_120
+    21300244: skill_sprite-active-3-d8fbb003_121
+    21300246: skill_sprite-active-3-d8fbb003_122
+    21300248: skill_sprite-active-3-d8fbb003_123
+    21300250: skill_sprite-active-3-d8fbb003_124
+    21300252: skill_sprite-active-3-d8fbb003_125
+    21300254: skill_sprite-active-3-d8fbb003_126
+    21300256: skill_sprite-active-3-d8fbb003_127
+    21300258: skill_sprite-active-3-d8fbb003_128
+    21300260: skill_sprite-active-3-d8fbb003_129
+    21300262: skill_sprite-active-3-d8fbb003_130
+    21300264: skill_sprite-active-3-d8fbb003_131
+    21300266: skill_sprite-active-3-d8fbb003_132
+    21300268: skill_sprite-active-3-d8fbb003_133
+    21300270: skill_sprite-active-3-d8fbb003_134
+    21300272: skill_sprite-active-3-d8fbb003_135
+    21300274: skill_sprite-active-3-d8fbb003_136
+    21300276: skill_sprite-active-3-d8fbb003_137
+    21300278: skill_sprite-active-3-d8fbb003_138
+    21300280: skill_sprite-active-3-d8fbb003_139
+    21300282: skill_sprite-active-3-d8fbb003_140
+    21300284: skill_sprite-active-3-d8fbb003_141
+    21300286: skill_sprite-active-3-d8fbb003_142
+    21300288: skill_sprite-active-3-d8fbb003_143
+    21300290: skill_sprite-active-3-d8fbb003_144
+    21300292: skill_sprite-active-3-d8fbb003_145
+    21300294: skill_sprite-active-3-d8fbb003_146
+    21300296: skill_sprite-active-3-d8fbb003_147
+    21300298: skill_sprite-active-3-d8fbb003_148
+    21300300: skill_sprite-active-3-d8fbb003_149
+    21300302: skill_sprite-active-3-d8fbb003_150
+    21300304: skill_sprite-active-3-d8fbb003_151
+    21300306: skill_sprite-active-3-d8fbb003_152
+    21300308: skill_sprite-active-3-d8fbb003_153
+    21300310: skill_sprite-active-3-d8fbb003_154
+    21300312: skill_sprite-active-3-d8fbb003_155
+    21300314: skill_sprite-active-3-d8fbb003_156
+    21300316: skill_sprite-active-3-d8fbb003_157
+    21300318: skill_sprite-active-3-d8fbb003_158
+    21300320: skill_sprite-active-3-d8fbb003_159
+    21300322: skill_sprite-active-3-d8fbb003_160
+    21300324: skill_sprite-active-3-d8fbb003_161
+    21300326: skill_sprite-active-3-d8fbb003_162
+    21300328: skill_sprite-active-3-d8fbb003_163
+    21300330: skill_sprite-active-3-d8fbb003_164
+    21300332: skill_sprite-active-3-d8fbb003_165
+    21300334: skill_sprite-active-3-d8fbb003_166
+    21300336: skill_sprite-active-3-d8fbb003_167
+    21300338: skill_sprite-active-3-d8fbb003_168
+    21300340: skill_sprite-active-3-d8fbb003_169
+    21300342: skill_sprite-active-3-d8fbb003_170
+    21300344: skill_sprite-active-3-d8fbb003_171
+    21300346: skill_sprite-active-3-d8fbb003_172
+    21300348: skill_sprite-active-3-d8fbb003_173
+    21300350: skill_sprite-active-3-d8fbb003_174
+    21300352: skill_sprite-active-3-d8fbb003_175
+    21300354: skill_sprite-active-3-d8fbb003_176
+    21300356: skill_sprite-active-3-d8fbb003_177
+    21300358: skill_sprite-active-3-d8fbb003_178
+    21300360: skill_sprite-active-3-d8fbb003_179
+    21300362: skill_sprite-active-3-d8fbb003_180
+    21300364: skill_sprite-active-3-d8fbb003_181
+    21300366: skill_sprite-active-3-d8fbb003_182
+    21300368: skill_sprite-active-3-d8fbb003_183
+    21300370: skill_sprite-active-3-d8fbb003_184
+    21300372: skill_sprite-active-3-d8fbb003_185
+    21300374: skill_sprite-active-3-d8fbb003_186
+    21300376: skill_sprite-active-3-d8fbb003_187
+    21300378: skill_sprite-active-3-d8fbb003_188
+    21300380: skill_sprite-active-3-d8fbb003_189
+    21300382: skill_sprite-active-3-d8fbb003_190
+    21300384: skill_sprite-active-3-d8fbb003_191
+    21300386: skill_sprite-active-3-d8fbb003_192
+    21300388: skill_sprite-active-3-d8fbb003_193
+    21300390: skill_sprite-active-3-d8fbb003_194
+    21300392: skill_sprite-active-3-d8fbb003_195
+    21300394: skill_sprite-active-3-d8fbb003_196
+    21300396: skill_sprite-active-3-d8fbb003_197
+    21300398: skill_sprite-active-3-d8fbb003_198
+    21300400: skill_sprite-active-3-d8fbb003_199
+    21300402: skill_sprite-active-3-d8fbb003_200
+    21300404: skill_sprite-active-3-d8fbb003_201
+    21300406: skill_sprite-active-3-d8fbb003_202
+    21300408: skill_sprite-active-3-d8fbb003_203
+    21300410: skill_sprite-active-3-d8fbb003_204
+    21300412: skill_sprite-active-3-d8fbb003_205
+    21300414: skill_sprite-active-3-d8fbb003_206
+    21300416: skill_sprite-active-3-d8fbb003_207
+    21300418: skill_sprite-active-3-d8fbb003_208
+    21300420: skill_sprite-active-3-d8fbb003_209
+    21300422: skill_sprite-active-3-d8fbb003_210
+    21300424: skill_sprite-active-3-d8fbb003_211
+    21300426: skill_sprite-active-3-d8fbb003_212
+    21300428: skill_sprite-active-3-d8fbb003_213
+    21300430: skill_sprite-active-3-d8fbb003_214
+    21300432: skill_sprite-active-3-d8fbb003_215
+    21300434: skill_sprite-active-3-d8fbb003_216
+    21300436: skill_sprite-active-3-d8fbb003_217
+    21300438: skill_sprite-active-3-d8fbb003_218
+    21300440: skill_sprite-active-3-d8fbb003_219
+    21300442: skill_sprite-active-3-d8fbb003_220
+    21300444: skill_sprite-active-3-d8fbb003_221
+    21300446: skill_sprite-active-3-d8fbb003_222
+    21300448: skill_sprite-active-3-d8fbb003_223
+    21300450: skill_sprite-active-3-d8fbb003_224
+    21300452: skill_sprite-active-3-d8fbb003_225
+    21300454: skill_sprite-active-3-d8fbb003_226
+    21300456: skill_sprite-active-3-d8fbb003_227
+    21300458: skill_sprite-active-3-d8fbb003_228
+    21300460: skill_sprite-active-3-d8fbb003_229
+    21300462: skill_sprite-active-3-d8fbb003_230
+    21300464: skill_sprite-active-3-d8fbb003_231
+    21300466: skill_sprite-active-3-d8fbb003_232
+    21300468: skill_sprite-active-3-d8fbb003_233
+    21300470: skill_sprite-active-3-d8fbb003_234
+    21300472: skill_sprite-active-3-d8fbb003_235
+    21300474: skill_sprite-active-3-d8fbb003_236
+    21300476: skill_sprite-active-3-d8fbb003_237
+    21300478: skill_sprite-active-3-d8fbb003_238
+    21300480: skill_sprite-active-3-d8fbb003_239
+    21300482: skill_sprite-active-3-d8fbb003_240
+    21300484: skill_sprite-active-3-d8fbb003_241
+    21300486: skill_sprite-active-3-d8fbb003_242
+    21300488: skill_sprite-active-3-d8fbb003_243
+    21300490: skill_sprite-active-3-d8fbb003_244
+    21300492: skill_sprite-active-3-d8fbb003_245
+    21300494: skill_sprite-active-3-d8fbb003_246
+    21300496: skill_sprite-active-3-d8fbb003_247
+    21300498: skill_sprite-active-3-d8fbb003_248
+    21300500: skill_sprite-active-3-d8fbb003_249
+    21300502: skill_sprite-active-3-d8fbb003_250
+    21300504: skill_sprite-active-3-d8fbb003_251
+    21300506: skill_sprite-active-3-d8fbb003_252
+    21300508: skill_sprite-active-3-d8fbb003_253
+    21300510: skill_sprite-active-3-d8fbb003_254
+    21300512: skill_sprite-active-3-d8fbb003_255
+    21300514: skill_sprite-active-3-d8fbb003_256
+    21300516: skill_sprite-active-3-d8fbb003_257
+    21300518: skill_sprite-active-3-d8fbb003_258
+    21300520: skill_sprite-active-3-d8fbb003_259
+    21300522: skill_sprite-active-3-d8fbb003_260
+    21300524: skill_sprite-active-3-d8fbb003_261
+    21300526: skill_sprite-active-3-d8fbb003_262
+    21300528: skill_sprite-active-3-d8fbb003_263
+    21300530: skill_sprite-active-3-d8fbb003_264
+    21300532: skill_sprite-active-3-d8fbb003_265
+    21300534: skill_sprite-active-3-d8fbb003_266
+    21300536: skill_sprite-active-3-d8fbb003_267
+    21300538: skill_sprite-active-3-d8fbb003_268
+    21300540: skill_sprite-active-3-d8fbb003_269
+    21300542: skill_sprite-active-3-d8fbb003_270
+    21300544: skill_sprite-active-3-d8fbb003_271
+    21300546: skill_sprite-active-3-d8fbb003_272
+    21300548: skill_sprite-active-3-d8fbb003_273
+    21300550: skill_sprite-active-3-d8fbb003_274
+    21300552: skill_sprite-active-3-d8fbb003_275
+    21300554: skill_sprite-active-3-d8fbb003_276
+    21300556: skill_sprite-active-3-d8fbb003_277
+    21300558: skill_sprite-active-3-d8fbb003_278
+    21300560: skill_sprite-active-3-d8fbb003_279
+    21300562: skill_sprite-active-3-d8fbb003_280
+    21300564: skill_sprite-active-3-d8fbb003_281
+    21300566: skill_sprite-active-3-d8fbb003_282
+    21300568: skill_sprite-active-3-d8fbb003_283
+    21300570: skill_sprite-active-3-d8fbb003_284
+    21300572: skill_sprite-active-3-d8fbb003_285
+    21300574: skill_sprite-active-3-d8fbb003_286
+    21300576: skill_sprite-active-3-d8fbb003_287
+    21300578: skill_sprite-active-3-d8fbb003_288
+    21300580: skill_sprite-active-3-d8fbb003_289
+    21300582: skill_sprite-active-3-d8fbb003_290
+    21300584: skill_sprite-active-3-d8fbb003_291
+    21300586: skill_sprite-active-3-d8fbb003_292
+    21300588: skill_sprite-active-3-d8fbb003_293
+    21300590: skill_sprite-active-3-d8fbb003_294
+    21300592: skill_sprite-active-3-d8fbb003_295
+    21300594: skill_sprite-active-3-d8fbb003_296
+    21300596: skill_sprite-active-3-d8fbb003_297
+    21300598: skill_sprite-active-3-d8fbb003_298
+    21300600: skill_sprite-active-3-d8fbb003_299
+    21300602: skill_sprite-active-3-d8fbb003_300
+    21300604: skill_sprite-active-3-d8fbb003_301
+    21300606: skill_sprite-active-3-d8fbb003_302
+    21300608: skill_sprite-active-3-d8fbb003_303
+    21300610: skill_sprite-active-3-d8fbb003_304
+    21300612: skill_sprite-active-3-d8fbb003_305
+    21300614: skill_sprite-active-3-d8fbb003_306
+    21300616: skill_sprite-active-3-d8fbb003_307
+    21300618: skill_sprite-active-3-d8fbb003_308
+    21300620: skill_sprite-active-3-d8fbb003_309
+    21300622: skill_sprite-active-3-d8fbb003_310
+    21300624: skill_sprite-active-3-d8fbb003_311
+    21300626: skill_sprite-active-3-d8fbb003_312
+    21300628: skill_sprite-active-3-d8fbb003_313
+    21300630: skill_sprite-active-3-d8fbb003_314
+    21300632: skill_sprite-active-3-d8fbb003_315
+    21300634: skill_sprite-active-3-d8fbb003_316
+    21300636: skill_sprite-active-3-d8fbb003_317
+    21300638: skill_sprite-active-3-d8fbb003_318
+    21300640: skill_sprite-active-3-d8fbb003_319
+    21300642: skill_sprite-active-3-d8fbb003_320
+    21300644: skill_sprite-active-3-d8fbb003_321
+    21300646: skill_sprite-active-3-d8fbb003_322
+    21300648: skill_sprite-active-3-d8fbb003_323
+    21300650: skill_sprite-active-3-d8fbb003_324
+    21300652: skill_sprite-active-3-d8fbb003_325
+    21300654: skill_sprite-active-3-d8fbb003_326
+    21300656: skill_sprite-active-3-d8fbb003_327
+    21300658: skill_sprite-active-3-d8fbb003_328
+    21300660: skill_sprite-active-3-d8fbb003_329
+    21300662: skill_sprite-active-3-d8fbb003_330
+    21300664: skill_sprite-active-3-d8fbb003_331
+    21300666: skill_sprite-active-3-d8fbb003_332
+    21300668: skill_sprite-active-3-d8fbb003_333
+    21300670: skill_sprite-active-3-d8fbb003_334
+    21300672: skill_sprite-active-3-d8fbb003_335
+    21300674: skill_sprite-active-3-d8fbb003_336
+    21300676: skill_sprite-active-3-d8fbb003_337
+    21300678: skill_sprite-active-3-d8fbb003_338
+    21300680: skill_sprite-active-3-d8fbb003_339
+    21300682: skill_sprite-active-3-d8fbb003_340
+    21300684: skill_sprite-active-3-d8fbb003_341
+    21300686: skill_sprite-active-3-d8fbb003_342
+    21300688: skill_sprite-active-3-d8fbb003_343
+    21300690: skill_sprite-active-3-d8fbb003_344
+    21300692: skill_sprite-active-3-d8fbb003_345
+    21300694: skill_sprite-active-3-d8fbb003_346
+    21300696: skill_sprite-active-3-d8fbb003_347
+    21300698: skill_sprite-active-3-d8fbb003_348
+    21300700: skill_sprite-active-3-d8fbb003_349
+    21300702: skill_sprite-active-3-d8fbb003_350
+    21300704: skill_sprite-active-3-d8fbb003_351
+    21300706: skill_sprite-active-3-d8fbb003_352
+    21300708: skill_sprite-active-3-d8fbb003_353
+    21300710: skill_sprite-active-3-d8fbb003_354
+    21300712: skill_sprite-active-3-d8fbb003_355
+    21300714: skill_sprite-active-3-d8fbb003_356
+    21300716: skill_sprite-active-3-d8fbb003_357
+    21300718: skill_sprite-active-3-d8fbb003_358
+    21300720: skill_sprite-active-3-d8fbb003_359
+    21300722: skill_sprite-active-3-d8fbb003_360
+    21300724: skill_sprite-active-3-d8fbb003_361
+    21300726: skill_sprite-active-3-d8fbb003_362
+    21300728: skill_sprite-active-3-d8fbb003_363
+    21300730: skill_sprite-active-3-d8fbb003_364
+    21300732: skill_sprite-active-3-d8fbb003_365
+    21300734: skill_sprite-active-3-d8fbb003_366
+    21300736: skill_sprite-active-3-d8fbb003_367
+    21300738: skill_sprite-active-3-d8fbb003_368
+    21300740: skill_sprite-active-3-d8fbb003_369
+    21300742: skill_sprite-active-3-d8fbb003_370
+    21300744: skill_sprite-active-3-d8fbb003_371
+    21300746: skill_sprite-active-3-d8fbb003_372
+    21300748: skill_sprite-active-3-d8fbb003_373
+    21300750: skill_sprite-active-3-d8fbb003_374
+    21300752: skill_sprite-active-3-d8fbb003_375
+    21300754: skill_sprite-active-3-d8fbb003_376
+    21300756: skill_sprite-active-3-d8fbb003_377
+    21300758: skill_sprite-active-3-d8fbb003_378
+    21300760: skill_sprite-active-3-d8fbb003_379
+    21300762: skill_sprite-active-3-d8fbb003_380
+    21300764: skill_sprite-active-3-d8fbb003_381
+    21300766: skill_sprite-active-3-d8fbb003_382
+    21300768: skill_sprite-active-3-d8fbb003_383
+    21300770: skill_sprite-active-3-d8fbb003_384
+    21300772: skill_sprite-active-3-d8fbb003_385
+    21300774: skill_sprite-active-3-d8fbb003_386
+    21300776: skill_sprite-active-3-d8fbb003_387
+    21300778: skill_sprite-active-3-d8fbb003_388
+    21300780: skill_sprite-active-3-d8fbb003_389
+    21300782: skill_sprite-active-3-d8fbb003_390
+    21300784: skill_sprite-active-3-d8fbb003_391
+    21300786: skill_sprite-active-3-d8fbb003_392
+    21300788: skill_sprite-active-3-d8fbb003_393
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,13 +420,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -43,6 +437,3946 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: skill_sprite-active-3-d8fbb003_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_17
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_23
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_28
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_30
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_32
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_33
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_34
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_35
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 737
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_36
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_40
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_41
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_42
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_44
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_46
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_48
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_51
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_52
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_53
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_55
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_56
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_58
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_59
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_60
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_61
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_62
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_63
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_65
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_66
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_67
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_68
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_69
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_70
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_71
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_73
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_74
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_75
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_77
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_78
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_79
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_81
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_82
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_83
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_84
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_85
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_86
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_87
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_88
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_89
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 564
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_91
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_92
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_93
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_94
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_95
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_96
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_98
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_99
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_100
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_101
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_102
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_103
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_104
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_105
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_106
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_107
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 526
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_109
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_110
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_111
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_112
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_113
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_114
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_115
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_116
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_117
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_118
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_119
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_120
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_121
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_122
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_123
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_124
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_125
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 488
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_127
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_128
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_129
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_130
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_131
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_132
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_133
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_134
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_135
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_136
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_137
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_138
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_139
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_140
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_141
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_142
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_143
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 450
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_145
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_146
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_147
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_148
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_149
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_150
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_151
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_152
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_153
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_154
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_155
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_156
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_157
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_158
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_159
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_160
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_161
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 412
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_163
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_164
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_165
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_166
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_167
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_168
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_169
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_170
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_171
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_172
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_173
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_174
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_175
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_176
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_177
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_178
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_179
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 374
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_181
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_182
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_183
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_184
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_185
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_186
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_187
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_188
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_189
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_190
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_191
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_192
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_193
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_194
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_195
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_196
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_197
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 336
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_199
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_200
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_201
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_202
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_203
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_204
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_205
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_206
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_207
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_208
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_209
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_210
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_211
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_212
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_213
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_214
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_215
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 298
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_217
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_218
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_219
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_220
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_221
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_222
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_223
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_224
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_225
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_226
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_227
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_228
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_229
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_230
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_231
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_232
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_233
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 260
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_234
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_235
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_236
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_237
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_238
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_239
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_240
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_241
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_242
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_243
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_244
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_245
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_246
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_247
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_248
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_249
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_250
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_251
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 222
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_253
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_254
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_255
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_256
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_257
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_258
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_259
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_260
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_261
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_262
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_263
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_264
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_265
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_266
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_267
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_268
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_269
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 184
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_271
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_272
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_273
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_274
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_275
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_276
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_277
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_278
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_279
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_280
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_281
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_282
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_283
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_284
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_285
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_286
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_287
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 146
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_289
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_290
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_291
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_292
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_293
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_294
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_295
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_296
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_297
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_298
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_299
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_300
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_301
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_302
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_303
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_304
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_305
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_306
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_307
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_308
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_309
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_310
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_311
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_312
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 54
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_313
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 54
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_314
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_315
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_316
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_317
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_318
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_319
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_320
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_321
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_322
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_323
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 54
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_324
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_325
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_326
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_327
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_328
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_329
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_330
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_331
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_332
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_333
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_334
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_335
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_336
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_337
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_338
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_339
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_340
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_341
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 710
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_342
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 683
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_343
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_344
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_345
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_346
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_347
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_348
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_349
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_350
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_351
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_352
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_353
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_354
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_355
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_356
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_357
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_358
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_359
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_360
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_361
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_362
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_363
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_364
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_365
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_366
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_367
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_368
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_369
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_370
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_371
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_372
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_373
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 629
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_374
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_375
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_376
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_377
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_378
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_379
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_380
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_381
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_382
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_383
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_384
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_385
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_386
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_387
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_388
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_389
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_390
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_391
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_392
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skill_sprite-active-3-d8fbb003_393
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 602
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
