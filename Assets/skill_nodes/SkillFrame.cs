@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
 public class SkillFrame : MonoBehaviour {
 
 	public Sprite unallocatedIcon;
@@ -10,7 +9,6 @@ public class SkillFrame : MonoBehaviour {
 	public Sprite allocatedBorder;
 
 	public bool allocated;
-	private bool previouslyAllocated = false;
 
 	public GameObject iconObj;
 	public GameObject borderObj;
@@ -23,19 +21,23 @@ public class SkillFrame : MonoBehaviour {
 	void Start () {
 		border = borderObj.GetComponent<SpriteRenderer>();
 		icon = iconObj.GetComponent<SpriteRenderer>();
+		border.sprite = unallocatedBorder;
+		icon.sprite = unallocatedIcon;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+	}
 
-		// Only change the sprites if the node changed
-		if (allocated && !previouslyAllocated) {
-			border.sprite = allocatedBorder;
-			icon.sprite = allocatedIcon;
-		} else if (!allocated && previouslyAllocated) {
+	void OnMouseDown() {
+		if (allocated) {
+			allocated = false;
 			border.sprite = unallocatedBorder;
 			icon.sprite = unallocatedIcon;
+		} else {
+			allocated = true;
+			border.sprite = allocatedBorder;
+			icon.sprite = allocatedIcon;
 		}
-	
 	}
 }

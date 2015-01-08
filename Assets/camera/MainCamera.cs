@@ -9,13 +9,11 @@ public class MainCamera : MonoBehaviour {
 	private float minOrthoSize = 1f;
 	private float maxOrthoSize = 20f;
 
-	GameObject skillTreeRoot;
 	Vector2 lastMousePos;
 
 	// Use this for initialization
 	void Start () {
 		lastMousePos = nil;
-		skillTreeRoot = GameObject.Find ("SkillTreeRoot");
 	}
 	
 	// Update is called once per frame
