@@ -3,20 +3,20 @@ guid: a3e3a648dcbda48bf8f93d0d80781153
 TextureImporter:
   fileIDToRecycleName:
     21300000: skill_sprite-3-75dc796f
-    21300002: skill_sprite-3-75dc796f_0
+    21300002: a
     21300004: skill_sprite-3-75dc796f_1
-    21300006: skill_sprite-3-75dc796f_2
-    21300008: skill_sprite-3-75dc796f_3
+    21300006: strength
+    21300008: intelligence
     21300010: skill_sprite-3-75dc796f_4
     21300012: skill_sprite-3-75dc796f_5
     21300014: skill_sprite-3-75dc796f_6
     21300016: skill_sprite-3-75dc796f_7
     21300018: skill_sprite-3-75dc796f_8
     21300020: skill_sprite-3-75dc796f_9
-    21300022: skill_sprite-3-75dc796f_10
+    21300022: projectile damage
     21300024: skill_sprite-3-75dc796f_11
-    21300026: skill_sprite-3-75dc796f_12
-    21300028: skill_sprite-3-75dc796f_13
+    21300026: strength and dexterity
+    21300028: dexterity
     21300030: skill_sprite-3-75dc796f_14
     21300032: skill_sprite-3-75dc796f_15
     21300034: skill_sprite-3-75dc796f_16
@@ -25,21 +25,21 @@ TextureImporter:
     21300040: skill_sprite-3-75dc796f_19
     21300042: skill_sprite-3-75dc796f_20
     21300044: skill_sprite-3-75dc796f_21
-    21300046: skill_sprite-3-75dc796f_22
+    21300046: mana
     21300048: skill_sprite-3-75dc796f_23
     21300050: skill_sprite-3-75dc796f_24
     21300052: skill_sprite-3-75dc796f_25
-    21300054: skill_sprite-3-75dc796f_26
+    21300054: cast speed
     21300056: skill_sprite-3-75dc796f_27
     21300058: skill_sprite-3-75dc796f_28
     21300060: skill_sprite-3-75dc796f_29
-    21300062: skill_sprite-3-75dc796f_30
+    21300062: life regeneration
     21300064: skill_sprite-3-75dc796f_31
     21300066: skill_sprite-3-75dc796f_32
     21300068: skill_sprite-3-75dc796f_33
     21300070: skill_sprite-3-75dc796f_34
-    21300072: skill_sprite-3-75dc796f_35
-    21300074: skill_sprite-3-75dc796f_36
+    21300072: spell damage
+    21300074: area of effect radius
     21300076: skill_sprite-3-75dc796f_37
     21300078: skill_sprite-3-75dc796f_38
     21300080: skill_sprite-3-75dc796f_39
@@ -55,10 +55,10 @@ TextureImporter:
     21300100: skill_sprite-3-75dc796f_49
     21300102: skill_sprite-3-75dc796f_50
     21300104: skill_sprite-3-75dc796f_51
-    21300106: skill_sprite-3-75dc796f_52
-    21300108: skill_sprite-3-75dc796f_53
-    21300110: skill_sprite-3-75dc796f_54
-    21300112: skill_sprite-3-75dc796f_55
+    21300106: attack speed
+    21300108: critical strike multiplier
+    21300110: dexterity and intelligence
+    21300112: life
     21300114: skill_sprite-3-75dc796f_56
     21300116: skill_sprite-3-75dc796f_57
     21300118: skill_sprite-3-75dc796f_58
@@ -323,8 +323,8 @@ TextureImporter:
     21300636: skill_sprite-3-75dc796f_331
     21300638: skill_sprite-3-75dc796f_333
     21300640: skill_sprite-3-75dc796f_334
-    21300642: skill_sprite-3-75dc796f_336
-    21300644: skill_sprite-3-75dc796f_321
+    21300642: aa
+    21300644: melee damage
     21300646: skill_sprite-3-75dc796f_322
     21300648: skill_sprite-3-75dc796f_323
     21300650: skill_sprite-3-75dc796f_324
@@ -340,7 +340,7 @@ TextureImporter:
     21300670: skill_sprite-3-75dc796f_334
     21300672: skill_sprite-3-75dc796f_335
     21300674: skill_sprite-3-75dc796f_336
-    21300676: skill_sprite-3-75dc796f_337
+    21300676: mana regeneration
     21300678: skill_sprite-3-75dc796f_338
     21300680: skill_sprite-3-75dc796f_339
     21300682: skill_sprite-3-75dc796f_340
@@ -387,7 +387,7 @@ TextureImporter:
     21300764: skill_sprite-3-75dc796f_381
     21300766: skill_sprite-3-75dc796f_382
     21300768: skill_sprite-3-75dc796f_383
-    21300770: skill_sprite-3-75dc796f_384
+    21300770: movement speed
     21300772: skill_sprite-3-75dc796f_385
     21300774: skill_sprite-3-75dc796f_386
     21300776: skill_sprite-3-75dc796f_387
@@ -438,7 +438,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: skill_sprite-3-75dc796f_0
+    - name: a
       rect:
         serializedVersion: 2
         x: 0
@@ -458,7 +458,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_2
+    - name: strength
       rect:
         serializedVersion: 2
         x: 54
@@ -468,7 +468,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_3
+    - name: intelligence
       rect:
         serializedVersion: 2
         x: 81
@@ -538,7 +538,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_10
+    - name: projectile damage
       rect:
         serializedVersion: 2
         x: 270
@@ -558,7 +558,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_12
+    - name: strength and dexterity
       rect:
         serializedVersion: 2
         x: 324
@@ -568,7 +568,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_13
+    - name: dexterity
       rect:
         serializedVersion: 2
         x: 351
@@ -658,7 +658,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_22
+    - name: mana
       rect:
         serializedVersion: 2
         x: 594
@@ -698,7 +698,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_26
+    - name: cast speed
       rect:
         serializedVersion: 2
         x: 27
@@ -738,7 +738,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_30
+    - name: life regeneration
       rect:
         serializedVersion: 2
         x: 135
@@ -788,7 +788,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_35
+    - name: spell damage
       rect:
         serializedVersion: 2
         x: 270
@@ -798,7 +798,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_36
+    - name: area of effect radius
       rect:
         serializedVersion: 2
         x: 297
@@ -958,7 +958,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_52
+    - name: attack speed
       rect:
         serializedVersion: 2
         x: 54
@@ -968,7 +968,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_53
+    - name: critical strike multiplier
       rect:
         serializedVersion: 2
         x: 81
@@ -978,7 +978,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_54
+    - name: dexterity and intelligence
       rect:
         serializedVersion: 2
         x: 108
@@ -988,7 +988,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_55
+    - name: life
       rect:
         serializedVersion: 2
         x: 135
@@ -1166,7 +1166,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_73
       rect:
@@ -1176,7 +1176,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_74
       rect:
@@ -1186,7 +1186,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_75
       rect:
@@ -1196,7 +1196,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_76
       rect:
@@ -1206,7 +1206,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_77
       rect:
@@ -1216,7 +1216,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_78
       rect:
@@ -1226,7 +1226,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_79
       rect:
@@ -1236,7 +1236,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_80
       rect:
@@ -1246,7 +1246,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_81
       rect:
@@ -1256,7 +1256,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_82
       rect:
@@ -1266,7 +1266,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_83
       rect:
@@ -1276,7 +1276,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_84
       rect:
@@ -1286,7 +1286,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_85
       rect:
@@ -1296,7 +1296,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_86
       rect:
@@ -1306,7 +1306,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_87
       rect:
@@ -1316,7 +1316,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_88
       rect:
@@ -1326,7 +1326,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_89
       rect:
@@ -1336,7 +1336,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_90
       rect:
@@ -1346,7 +1346,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_91
       rect:
@@ -1356,7 +1356,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_92
       rect:
@@ -1366,7 +1366,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_93
       rect:
@@ -1376,7 +1376,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_94
       rect:
@@ -1386,7 +1386,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_95
       rect:
@@ -1396,7 +1396,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_96
       rect:
@@ -1406,7 +1406,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_97
       rect:
@@ -1416,7 +1416,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_98
       rect:
@@ -1426,7 +1426,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_99
       rect:
@@ -1436,7 +1436,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_100
       rect:
@@ -1446,7 +1446,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_101
       rect:
@@ -1456,7 +1456,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_102
       rect:
@@ -1466,7 +1466,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_103
       rect:
@@ -1476,7 +1476,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_104
       rect:
@@ -1486,7 +1486,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_105
       rect:
@@ -1496,7 +1496,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_106
       rect:
@@ -1506,7 +1506,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_107
       rect:
@@ -1516,7 +1516,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_108
       rect:
@@ -1526,7 +1526,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_109
       rect:
@@ -1536,7 +1536,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_110
       rect:
@@ -1546,7 +1546,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_111
       rect:
@@ -1556,7 +1556,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_112
       rect:
@@ -1566,7 +1566,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_113
       rect:
@@ -1576,7 +1576,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_114
       rect:
@@ -1586,7 +1586,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_115
       rect:
@@ -1596,7 +1596,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_116
       rect:
@@ -1606,7 +1606,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_117
       rect:
@@ -1616,7 +1616,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_118
       rect:
@@ -1626,7 +1626,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_119
       rect:
@@ -1636,7 +1636,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_120
       rect:
@@ -1646,7 +1646,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_121
       rect:
@@ -1656,7 +1656,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_122
       rect:
@@ -1666,7 +1666,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_123
       rect:
@@ -1676,7 +1676,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_124
       rect:
@@ -1686,7 +1686,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_125
       rect:
@@ -1696,7 +1696,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_126
       rect:
@@ -1706,7 +1706,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_127
       rect:
@@ -1716,7 +1716,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_128
       rect:
@@ -1726,7 +1726,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_129
       rect:
@@ -1736,7 +1736,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_130
       rect:
@@ -1746,7 +1746,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_131
       rect:
@@ -1756,7 +1756,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_132
       rect:
@@ -1766,7 +1766,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_133
       rect:
@@ -1776,7 +1776,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_134
       rect:
@@ -1786,7 +1786,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_135
       rect:
@@ -1796,7 +1796,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_136
       rect:
@@ -1806,7 +1806,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_137
       rect:
@@ -1816,7 +1816,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_138
       rect:
@@ -1826,7 +1826,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_139
       rect:
@@ -1836,7 +1836,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_140
       rect:
@@ -1846,7 +1846,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_141
       rect:
@@ -1856,7 +1856,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_142
       rect:
@@ -1866,7 +1866,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_143
       rect:
@@ -1876,7 +1876,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_144
       rect:
@@ -1886,7 +1886,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_145
       rect:
@@ -1896,7 +1896,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_146
       rect:
@@ -1906,7 +1906,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_147
       rect:
@@ -1916,7 +1916,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_148
       rect:
@@ -1926,7 +1926,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_149
       rect:
@@ -1936,7 +1936,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_150
       rect:
@@ -1946,7 +1946,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_151
       rect:
@@ -1956,7 +1956,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_152
       rect:
@@ -1966,7 +1966,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_153
       rect:
@@ -1976,7 +1976,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_154
       rect:
@@ -1986,7 +1986,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_155
       rect:
@@ -1996,7 +1996,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_156
       rect:
@@ -2006,7 +2006,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_157
       rect:
@@ -2016,7 +2016,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_158
       rect:
@@ -2026,7 +2026,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_159
       rect:
@@ -2036,7 +2036,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_160
       rect:
@@ -2046,7 +2046,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_161
       rect:
@@ -2056,7 +2056,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_162
       rect:
@@ -2066,7 +2066,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_163
       rect:
@@ -2076,7 +2076,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_164
       rect:
@@ -2086,7 +2086,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_165
       rect:
@@ -2096,7 +2096,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_166
       rect:
@@ -2106,7 +2106,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_167
       rect:
@@ -2116,7 +2116,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_168
       rect:
@@ -2126,7 +2126,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_169
       rect:
@@ -2136,7 +2136,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_170
       rect:
@@ -2146,7 +2146,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_171
       rect:
@@ -2156,7 +2156,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_172
       rect:
@@ -2166,7 +2166,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_173
       rect:
@@ -2176,7 +2176,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_174
       rect:
@@ -2186,7 +2186,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_175
       rect:
@@ -2196,7 +2196,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_176
       rect:
@@ -2206,7 +2206,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_177
       rect:
@@ -2216,7 +2216,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_178
       rect:
@@ -2226,7 +2226,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_179
       rect:
@@ -2236,7 +2236,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_180
       rect:
@@ -2246,7 +2246,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_181
       rect:
@@ -2256,7 +2256,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_182
       rect:
@@ -2266,7 +2266,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_183
       rect:
@@ -2276,7 +2276,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_184
       rect:
@@ -2286,7 +2286,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_185
       rect:
@@ -2296,7 +2296,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_186
       rect:
@@ -2306,7 +2306,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_187
       rect:
@@ -2316,7 +2316,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_188
       rect:
@@ -2326,7 +2326,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_189
       rect:
@@ -2336,7 +2336,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_190
       rect:
@@ -2346,7 +2346,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_191
       rect:
@@ -2356,7 +2356,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_192
       rect:
@@ -2366,7 +2366,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_193
       rect:
@@ -2376,7 +2376,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_194
       rect:
@@ -2386,7 +2386,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_195
       rect:
@@ -2396,7 +2396,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_196
       rect:
@@ -2406,7 +2406,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_197
       rect:
@@ -2416,7 +2416,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_198
       rect:
@@ -2426,7 +2426,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_199
       rect:
@@ -2436,7 +2436,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_200
       rect:
@@ -2446,7 +2446,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_201
       rect:
@@ -2456,7 +2456,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_202
       rect:
@@ -2466,7 +2466,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_203
       rect:
@@ -2476,7 +2476,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_204
       rect:
@@ -2486,7 +2486,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_205
       rect:
@@ -2496,7 +2496,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_206
       rect:
@@ -2506,7 +2506,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_207
       rect:
@@ -2516,7 +2516,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_208
       rect:
@@ -2526,7 +2526,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_209
       rect:
@@ -2536,7 +2536,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_210
       rect:
@@ -2546,7 +2546,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_211
       rect:
@@ -2556,7 +2556,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_212
       rect:
@@ -2566,7 +2566,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_213
       rect:
@@ -2576,7 +2576,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_214
       rect:
@@ -2586,7 +2586,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_215
       rect:
@@ -2596,7 +2596,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_216
       rect:
@@ -2606,7 +2606,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_217
       rect:
@@ -2616,7 +2616,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_218
       rect:
@@ -2626,7 +2626,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_219
       rect:
@@ -2636,7 +2636,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_220
       rect:
@@ -2646,7 +2646,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_221
       rect:
@@ -2656,7 +2656,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_222
       rect:
@@ -2666,7 +2666,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_223
       rect:
@@ -2676,7 +2676,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_224
       rect:
@@ -2686,7 +2686,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_225
       rect:
@@ -2696,7 +2696,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_226
       rect:
@@ -2706,7 +2706,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_227
       rect:
@@ -2716,7 +2716,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_228
       rect:
@@ -2726,7 +2726,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_229
       rect:
@@ -2736,7 +2736,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_230
       rect:
@@ -2746,7 +2746,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_231
       rect:
@@ -2756,7 +2756,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_232
       rect:
@@ -2766,7 +2766,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_233
       rect:
@@ -2776,7 +2776,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_234
       rect:
@@ -2786,7 +2786,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_235
       rect:
@@ -2796,7 +2796,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_236
       rect:
@@ -2806,7 +2806,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_237
       rect:
@@ -2816,7 +2816,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_238
       rect:
@@ -2826,7 +2826,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_239
       rect:
@@ -2836,7 +2836,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_240
       rect:
@@ -2846,7 +2846,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_241
       rect:
@@ -2856,7 +2856,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_242
       rect:
@@ -2866,7 +2866,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_243
       rect:
@@ -2876,7 +2876,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_244
       rect:
@@ -2886,7 +2886,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_245
       rect:
@@ -2896,7 +2896,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_246
       rect:
@@ -2906,7 +2906,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_247
       rect:
@@ -2916,7 +2916,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_248
       rect:
@@ -2926,7 +2926,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_249
       rect:
@@ -2936,7 +2936,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_250
       rect:
@@ -2946,7 +2946,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_251
       rect:
@@ -2956,7 +2956,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_252
       rect:
@@ -2966,7 +2966,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_253
       rect:
@@ -2976,7 +2976,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_254
       rect:
@@ -2986,7 +2986,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_255
       rect:
@@ -2996,7 +2996,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_256
       rect:
@@ -3006,7 +3006,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_257
       rect:
@@ -3016,7 +3016,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_258
       rect:
@@ -3026,7 +3026,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_259
       rect:
@@ -3036,7 +3036,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_260
       rect:
@@ -3046,7 +3046,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_261
       rect:
@@ -3056,7 +3056,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_262
       rect:
@@ -3066,7 +3066,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_263
       rect:
@@ -3076,7 +3076,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_264
       rect:
@@ -3086,7 +3086,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_265
       rect:
@@ -3096,7 +3096,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_266
       rect:
@@ -3106,7 +3106,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_267
       rect:
@@ -3116,7 +3116,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_268
       rect:
@@ -3126,7 +3126,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_269
       rect:
@@ -3136,7 +3136,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_270
       rect:
@@ -3146,7 +3146,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_271
       rect:
@@ -3156,7 +3156,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_272
       rect:
@@ -3166,7 +3166,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_273
       rect:
@@ -3176,7 +3176,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_274
       rect:
@@ -3186,7 +3186,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_275
       rect:
@@ -3196,7 +3196,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_276
       rect:
@@ -3206,7 +3206,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_277
       rect:
@@ -3216,7 +3216,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_278
       rect:
@@ -3226,7 +3226,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_279
       rect:
@@ -3236,7 +3236,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_280
       rect:
@@ -3246,7 +3246,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_281
       rect:
@@ -3256,7 +3256,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_282
       rect:
@@ -3266,7 +3266,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_283
       rect:
@@ -3276,7 +3276,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_284
       rect:
@@ -3286,7 +3286,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_285
       rect:
@@ -3296,7 +3296,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_286
       rect:
@@ -3306,7 +3306,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_287
       rect:
@@ -3316,7 +3316,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_288
       rect:
@@ -3326,7 +3326,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_289
       rect:
@@ -3336,7 +3336,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_290
       rect:
@@ -3346,7 +3346,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_291
       rect:
@@ -3356,7 +3356,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_292
       rect:
@@ -3366,7 +3366,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_293
       rect:
@@ -3376,7 +3376,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_294
       rect:
@@ -3386,7 +3386,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_295
       rect:
@@ -3396,7 +3396,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_296
       rect:
@@ -3406,7 +3406,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_297
       rect:
@@ -3416,7 +3416,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_298
       rect:
@@ -3426,7 +3426,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: skill_sprite-3-75dc796f_306
       rect:
@@ -3638,7 +3638,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_336
+    - name: aa
       rect:
         serializedVersion: 2
         x: 424
@@ -3648,7 +3648,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_321
+    - name: melee damage
       rect:
         serializedVersion: 2
         x: 594
@@ -3808,7 +3808,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_337
+    - name: mana regeneration
       rect:
         serializedVersion: 2
         x: 351
@@ -4278,7 +4278,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skill_sprite-3-75dc796f_384
+    - name: movement speed
       rect:
         serializedVersion: 2
         x: 270
