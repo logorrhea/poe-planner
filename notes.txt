@@ -1,0 +1,11 @@
+StartNodeBackgroundXXX.png - 241 x 222
+
+Potential Scales
+================
+
+1 Unit = 1 Pixel
+1 = 241?
+
+Dumb estimate
+1 unit = 100 pixels
+we have a winner
