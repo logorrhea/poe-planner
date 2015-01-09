@@ -7701,7 +7701,7 @@
                 y: -822.92
             },
             t: 0
-        }, { /* @TODO: Start here!! */
+        }, {
             id: 57266,
             n: "Mace Damage and Reduced Enemy Stun Threshold",
             d: ["10% increased Physical Damage with Maces", "4% reduced Enemy Stun Threshold with Maces"],
@@ -10146,7 +10146,7 @@
                 y: -957.98
             },
             t: 1
-        }, {
+        }, { /* @TODO: Start here!!! */
             id: 56381,
             n: "Two Handed Attack Speed",
             d: ["4% increased Attack Speed with Two Handed Melee Weapons"],
