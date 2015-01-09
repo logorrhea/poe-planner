@@ -6231,7 +6231,7 @@
                 y: -75.79
             },
             t: 1
-        }, { /* @TODO: Start from here!!! */
+        }, {
             id: 918,
             n: "Attack Speed",
             d: ["3% increased Attack Speed"],
@@ -7701,7 +7701,7 @@
                 y: -822.92
             },
             t: 0
-        }, {
+        }, { /* @TODO: Start here!! */
             id: 57266,
             n: "Mace Damage and Reduced Enemy Stun Threshold",
             d: ["10% increased Physical Damage with Maces", "4% reduced Enemy Stun Threshold with Maces"],
