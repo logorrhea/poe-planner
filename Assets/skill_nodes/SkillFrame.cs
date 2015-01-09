@@ -12,6 +12,10 @@ public class SkillFrame : MonoBehaviour {
 
 	public GameObject iconObj;
 	public GameObject borderObj;
+	
+	public string[] effects;
+	public int nodeId;
+	public string nodeName;
 
 	/** References to the SpriteRenderers for the border and icon */
 	private SpriteRenderer border;
