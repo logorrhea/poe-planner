@@ -10146,7 +10146,7 @@
                 y: -957.98
             },
             t: 1
-        }, { /* @TODO: Start here!!! */
+        }, {
             id: 56381,
             n: "Two Handed Attack Speed",
             d: ["4% increased Attack Speed with Two Handed Melee Weapons"],
@@ -10551,7 +10551,7 @@
                 y: 113.02
             },
             t: 0
-        }, {
+        }, { /* @TODO: Start here!! */
             id: 28012,
             n: "Dexterity",
             d: ["+10 to Dexterity"],
