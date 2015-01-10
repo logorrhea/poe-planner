@@ -10551,7 +10551,7 @@
                 y: 113.02
             },
             t: 0
-        }, { /* @TODO: Start here!! */
+        }, {
             id: 28012,
             n: "Dexterity",
             d: ["+10 to Dexterity"],
@@ -11361,7 +11361,7 @@
                 y: -802.26
             },
             t: 0
-        }, {
+        }, { /* @TODO: Start here!! */
             id: 63447,
             n: "Intelligence",
             d: ["+10 to Intelligence"],
