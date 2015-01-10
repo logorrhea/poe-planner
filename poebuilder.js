@@ -11361,7 +11361,7 @@
                 y: -802.26
             },
             t: 0
-        }, { /* @TODO: Start here!! */
+        }, {
             id: 63447,
             n: "Intelligence",
             d: ["+10 to Intelligence"],
@@ -11826,7 +11826,7 @@
                 y: 207.12
             },
             t: 1
-        }, {
+        }, { /* @TODO: Start here!! */
             id: 35053,
             n: "Sword Damage",
             d: ["12% increased Physical Damage with Swords"],
