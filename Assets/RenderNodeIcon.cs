@@ -18,6 +18,9 @@ public class RenderNodeIcon : MonoBehaviour {
 
 	public GameObject borderObj;
 
+	public Material allocatedMaterial;
+	public Material unallocatedMaterial;
+
 	private float imageWidth = 693f;
 	private float imageHeight = 764f;
 
@@ -28,10 +31,12 @@ public class RenderNodeIcon : MonoBehaviour {
 	private Sprite allocatedBorder;
 
 	private SpriteRenderer border;
+	private MeshRenderer meshRenderer;
 
 	// Use this for initialization
 	void Start () {
 		border = borderObj.GetComponent<SpriteRenderer>();
+		meshRenderer = GetComponent<MeshRenderer>();
 	}
 
 	public void InitiateParams(JSONObject data) {
@@ -107,7 +112,6 @@ public class RenderNodeIcon : MonoBehaviour {
 
 		// Get relevant components
 		MeshFilter meshFilter = GetComponent<MeshFilter>();
-		MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
 
 		// Assign new mesh to meshFilter and meshCollider
 		meshFilter.mesh = mesh;
@@ -115,13 +119,14 @@ public class RenderNodeIcon : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
-		Debug.Log ("clickered");
 		if (allocated) {
 			allocated = false;
 			border.sprite = unallocatedBorder;
+			meshRenderer.material = unallocatedMaterial;
 		} else {
 			allocated = true;
 			border.sprite = allocatedBorder;
+			meshRenderer.material = allocatedMaterial;
 		}
 	}
 }
