@@ -75,6 +75,7 @@ public class SkillFrame : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
+		Debug.Log ("clickered");
 		if (allocated) {
 			allocated = false;
 			border.sprite = unallocatedBorder;

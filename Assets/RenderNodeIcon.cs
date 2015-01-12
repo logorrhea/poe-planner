@@ -11,14 +11,27 @@ public class RenderNodeIcon : MonoBehaviour {
 	public float[] texSize;
 	public float[] texCoords;
 
+	public bool allocated;
+
+	public Sprite[] allocatedBorders;
+	public Sprite[] unallocatedBorders;
+
+	public GameObject borderObj;
+
 	private float imageWidth = 693f;
 	private float imageHeight = 764f;
 
 	private float[] sizesX = new float[]{27f, 38f, 53f};
 	private float[] sizesY = new float[]{27f, 38f, 54f};
 
+	private Sprite unallocatedBorder;
+	private Sprite allocatedBorder;
+
+	private SpriteRenderer border;
+
 	// Use this for initialization
 	void Start () {
+		border = borderObj.GetComponent<SpriteRenderer>();
 	}
 
 	public void InitiateParams(JSONObject data) {
@@ -38,6 +51,10 @@ public class RenderNodeIcon : MonoBehaviour {
 		texCoords = new float[2];
 		texCoords[0] = textureData.GetField("x").f;
 		texCoords[1] = textureData.GetField("y").f;
+
+		// Set border sprites
+		unallocatedBorder = unallocatedBorders[tier];
+		allocatedBorder = allocatedBorders[tier];
 
 		// Once params are in place, we can construct the mesh
 		BuildMesh ();
@@ -95,5 +112,16 @@ public class RenderNodeIcon : MonoBehaviour {
 		// Assign new mesh to meshFilter and meshCollider
 		meshFilter.mesh = mesh;
 
+	}
+
+	void OnMouseDown() {
+		Debug.Log ("clickered");
+		if (allocated) {
+			allocated = false;
+			border.sprite = unallocatedBorder;
+		} else {
+			allocated = true;
+			border.sprite = allocatedBorder;
+		}
 	}
 }

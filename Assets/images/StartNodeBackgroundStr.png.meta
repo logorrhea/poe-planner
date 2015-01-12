@@ -3,6 +3,7 @@ guid: 14f3d270015144c0bbc186a7b1b35544
 TextureImporter:
   fileIDToRecycleName:
     21300000: StartNodeBackgroundStr-08e940f6
+    21300002: StartNodeBackgroundStr
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,9 +27,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50

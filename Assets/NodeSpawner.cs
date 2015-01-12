@@ -7,8 +7,10 @@ using System.Text;
 public class NodeSpawner : MonoBehaviour {
 
 	public GameObject[] prefabs;
-	private string nodeDataFile = "Assets/node_data.json";
+	public GameObject startNodePrefab;
 
+	private string nodeDataFile = "Assets/node_data.json";
+	private string startNodeDataFile = "Assets/start_node_data.json";
 
 	void Start () {
 
@@ -17,6 +19,14 @@ public class NodeSpawner : MonoBehaviour {
 		if (nodeData.IsArray) {
 			foreach(JSONObject node in nodeData.list) {
 				createNode (node);
+			}
+		}
+
+		// Spawn Class starting nodes
+		nodeData = new JSONObject(readDataFile(startNodeDataFile));
+		if (nodeData.IsArray) {
+			foreach(JSONObject startNode in nodeData.list) {
+				createStartNode(startNode);
 			}
 		}
 	
@@ -53,6 +63,17 @@ public class NodeSpawner : MonoBehaviour {
 
 
 		GameObject node = (GameObject)Instantiate(prefabs[tierLevel], pos, Quaternion.identity);
+		node.SendMessage ("InitiateParams", data);
+	}
+
+	private void createStartNode(JSONObject data) {
+
+		JSONObject location = data.GetField("location");
+		Vector3 pos = new Vector3(
+			location.GetField("x").f / 100,
+			location.GetField("y").f/100,
+			0);
+		GameObject node = (GameObject)Instantiate(startNodePrefab, pos, Quaternion.identity);
 		node.SendMessage ("InitiateParams", data);
 	}
 

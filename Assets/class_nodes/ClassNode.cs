@@ -4,9 +4,8 @@ using System.Collections;
 [RequireComponent(typeof(SpriteRenderer))]
 public class ClassNode : MonoBehaviour {
 
-	public Sprite activeSprite;
 	public Sprite inactiveSprite;
-
+	public Sprite activeSprite;
 	public bool active = false;
 
 	private SpriteRenderer spriteRenderer;
@@ -23,5 +22,11 @@ public class ClassNode : MonoBehaviour {
 		} else {
 			spriteRenderer.sprite = inactiveSprite;
 		}
+	}
+
+	public void InitiateParams(JSONObject data) {
+		string assetPath = "Assets/images/" + data.GetField ("icon").str;
+		Sprite bgImage = (Sprite)Resources.LoadAssetAtPath(assetPath, typeof(Sprite));
+		activeSprite = bgImage;
 	}
 }
