@@ -118,7 +118,7 @@ public class RenderNodeIcon : MonoBehaviour {
 
 	}
 
-	void OnMouseDown() {
+	void OnTouch() {
 		if (allocated) {
 			allocated = false;
 			border.sprite = unallocatedBorder;
@@ -129,4 +129,5 @@ public class RenderNodeIcon : MonoBehaviour {
 			meshRenderer.material = allocatedMaterial;
 		}
 	}
+
 }

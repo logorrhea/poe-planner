@@ -6,7 +6,7 @@ public class ClassNode : MonoBehaviour {
 
 	public Sprite inactiveSprite;
 	public Sprite activeSprite;
-	public bool active = false;
+	public bool allocated = false;
 
 	private SpriteRenderer spriteRenderer;
 
@@ -17,7 +17,7 @@ public class ClassNode : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (active) {
+		if (allocated) {
 			spriteRenderer.sprite = activeSprite;
 		} else {
 			spriteRenderer.sprite = inactiveSprite;
