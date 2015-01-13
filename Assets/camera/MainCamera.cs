@@ -7,6 +7,7 @@ public class MainCamera : MonoBehaviour {
 	public float zoomRate;
 	public float minOrthoSize;
 	public float maxOrthoSize;
+	public float minMovement;
 
 
 	// Use this for initialization
@@ -49,19 +50,44 @@ public class MainCamera : MonoBehaviour {
 		}
 
 		/**
-		 * TOUCH DRAG
+		 * 1 Finger input; movement and tapping
 		 */
 		if (Input.touchCount == 1) {
 
 			// Store touch
 			Touch finger = Input.GetTouch(0);
 
-			// Find velocity, apply to camera rigidbody
-			Vector2 velocity = -finger.deltaPosition/finger.deltaTime;
-			float zoomFactor = moveRate * (camera.orthographicSize / maxOrthoSize);
-			rigidbody2D.AddForce(velocity * zoomFactor);
-		}
+			// Calculate distance traveled between finger positions
+			// to differentiate between tap and drag
+			Vector2 fingerPrevPosition = finger.position - finger.deltaPosition;
+			float dist = (finger.position - fingerPrevPosition).magnitude;
 
+			/**
+			 * TOUCH DRAG
+			 */
+			if (dist >= minMovement) {
+				// Find velocity, apply to camera rigidbody
+				Vector2 velocity = -finger.deltaPosition/finger.deltaTime;
+				float zoomFactor = moveRate * (camera.orthographicSize / maxOrthoSize);
+				rigidbody2D.AddForce(velocity * zoomFactor);
+
+			/**
+			 * TAP NODE
+			 */
+			} else {
+				RaycastHit hit;
+				if (finger.phase == TouchPhase.Ended) {
+					Ray ray = camera.ScreenPointToRay(finger.position);
+					if (Physics.Raycast(ray, out hit)) {
+						Debug.DrawLine (ray.origin, hit.point, Color.red);
+						hit.collider.SendMessage("Toggle");
+					} else {
+						Debug.DrawLine (ray.origin, ray.origin + ray.direction*500, Color.yellow);
+					}
+				}
+			}
+
+		}
 
 	
 #else

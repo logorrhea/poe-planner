@@ -29,4 +29,5 @@ public class ClassNode : MonoBehaviour {
 		Sprite bgImage = (Sprite)Resources.LoadAssetAtPath(assetPath, typeof(Sprite));
 		activeSprite = bgImage;
 	}
+
 }

@@ -118,7 +118,8 @@ public class RenderNodeIcon : MonoBehaviour {
 
 	}
 
-	void OnTouch() {
+
+	public void Toggle() {
 		if (allocated) {
 			allocated = false;
 			border.sprite = unallocatedBorder;
