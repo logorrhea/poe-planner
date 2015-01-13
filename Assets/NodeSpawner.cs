@@ -8,25 +8,70 @@ public class NodeSpawner : MonoBehaviour {
 
 	public GameObject[] prefabs;
 	public GameObject startNodePrefab;
-
+	
+	struct Node {
+		public long id;
+		public string name;
+		public float x;
+		public float y;
+		public int tier;
+		public string[] desc;
+	}
+	
+	struct Line {
+		public long startNode;
+		public long endNode;
+		public float x;
+		public float y;
+		
+		// 0 or 1; 0 = straight, 1 = curved
+		public int type;
+		
+		// Type 0 (straight) variables
+		public float start_x;
+		public float start_y;
+		public float end_x;
+		public float end_y;
+		
+		// Type 1 (curved) variables
+		public float delta;
+		public float radius;
+	}
+	
+	// Keep track of the pertinent information about each node
+	// Let the GameObject handle the rendering and such
+	private Dictionary<long, Node> nodes;
+	
 	private string nodeDataFile = "Assets/node_data.json";
 	private string startNodeDataFile = "Assets/start_node_data.json";
+	private string lineDataFile = "Assets/line_data.json";
 
 	void Start () {
+	
+		// Initialize dictionary of nodes
+		nodes = new Dictionary<long, Node>();
 
 		// Read JSON data from file and instantiate nodes
-		JSONObject nodeData = new JSONObject(readDataFile(nodeDataFile));
-		if (nodeData.IsArray) {
-			foreach(JSONObject node in nodeData.list) {
+		JSONObject data = new JSONObject(readDataFile(nodeDataFile));
+		if (data.IsArray) {
+			foreach(JSONObject node in data.list) {
 				createNode (node);
 			}
 		}
 
 		// Spawn Class starting nodes
-		nodeData = new JSONObject(readDataFile(startNodeDataFile));
-		if (nodeData.IsArray) {
-			foreach(JSONObject startNode in nodeData.list) {
+		data = new JSONObject(readDataFile(startNodeDataFile));
+		if (data.IsArray) {
+			foreach(JSONObject startNode in data.list) {
 				createStartNode(startNode);
+			}
+		}
+		
+		// Draw lines connecting graph nodes
+		data = new JSONObject(readDataFile(lineDataFile));
+		if (data.IsArray) {
+			foreach(JSONObject line in data.list) {
+				drawLine(line);
 			}
 		}
 	
@@ -38,32 +83,41 @@ public class NodeSpawner : MonoBehaviour {
 	 * information about that node.
 	 */
 	private void createNode(JSONObject data) {
+	
+		Node node = new Node();
+		
+		// Get node ID
+		node.id = (long)data.GetField("id").f;
 
 		// Get node name
-		string name = data.GetField("name").ToString ();
+		node.name = data.GetField ("name").str;
 
 		// Get description text
 		JSONObject descs = data.GetField ("desc");
-		string[] desc = new string[descs.Count];
+		node.desc = new string[descs.Count];
 		int i = 0;
 		foreach(JSONObject val in descs.list) {
-			desc[i] = val.ToString();
+			node.desc[i] = val.ToString();
 			i++;
 		}
 
 		// Determine node tier (minor, major, keystone)
-		int tierLevel = (int)data.GetField ("tier").f;
+		node.tier = (int)data.GetField ("tier").f;
 
 		// Determine node position
 		JSONObject location = data.GetField("location");
-		Vector3 pos = new Vector3(
-			location.GetField("x").f / 100,  // x & y are 100x larger than necessary
-			location.GetField("y").f / -100, // y coords are reversed
-			0);
-
-
-		GameObject node = (GameObject)Instantiate(prefabs[tierLevel], pos, Quaternion.identity);
-		node.SendMessage ("InitiateParams", data);
+		node.x = location.GetField("x").f / 100f;  // x & y are 100x larger than necessary
+		node.y = location.GetField("y").f / -100f; // y coords are reversed
+		
+		// Add node to the list of nodes
+		nodes.Add(node.id, node);
+		
+		// Create the game object, and instantiate its variables
+		GameObject nodeObj = (GameObject)Instantiate(
+			prefabs[node.tier],
+			new Vector3(node.x, node.y, 0),
+			Quaternion.identity);
+		nodeObj.SendMessage ("InitiateParams", data);
 	}
 
 	private void createStartNode(JSONObject data) {
@@ -101,5 +155,13 @@ public class NodeSpawner : MonoBehaviour {
 		return ASCIIEncoding.ASCII.GetString (buffer);
 	}
 
+
+	/**
+	 * Private helper function for drawing graph lines
+	 * @TODO: Implement drawing functionality for type 2 (curved) lines
+	 */
+	 private void drawLine(JSONObject data) {
+		 
+	 }
 
 }
