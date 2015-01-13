@@ -3,11 +3,11 @@ using System.Collections;
 
 public class MainCamera : MonoBehaviour {
 
-//	private Vector2 nil = new Vector2(-999999, -999999);
-	private float moveRate = 0.1f;
-	private float zoomSpeed = 0.05f;
-	private float minOrthoSize = 3f;
-	private float maxOrthoSize = 20f;
+	public float moveRate;
+	public float zoomRate;
+	public float minOrthoSize;
+	public float maxOrthoSize;
+
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +32,7 @@ public class MainCamera : MonoBehaviour {
 			Touch finger1 = Input.GetTouch(0);
 			Touch finger2 = Input.GetTouch(1);
 
-			// Find the previous positions of ech touch
+			// Find the previous positions of each touch
 			Vector2 finger1Prev = finger1.position - finger1.deltaPosition;
 			Vector2 finger2Prev = finger2.position - finger2.deltaPosition;
 
@@ -44,9 +44,25 @@ public class MainCamera : MonoBehaviour {
 			float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
 
 			// Update the zoominess
-			camera.orthographicSize += deltaMagnitudeDiff * zoomSpeed;
+			camera.orthographicSize += deltaMagnitudeDiff * zoomRate;
 			camera.orthographicSize = Mathf.Clamp(camera.orthographicSize, minOrthoSize, maxOrthoSize);
 		}
+
+		/**
+		 * TOUCH DRAG
+		 */
+		if (Input.touchCount == 1) {
+
+			// Store touch
+			Touch finger = Input.GetTouch(0);
+
+			// Find velocity, apply to camera rigidbody
+			Vector2 velocity = -finger.deltaPosition/finger.deltaTime;
+			float zoomFactor = moveRate * (camera.orthographicSize / maxOrthoSize);
+			rigidbody2D.AddForce(velocity * zoomFactor);
+		}
+
+
 	
 #else
 
