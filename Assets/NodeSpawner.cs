@@ -57,11 +57,11 @@ public class NodeSpawner : MonoBehaviour {
 	// Let the GameObject handle the rendering and such
 	private Dictionary<long, Node> nodes;
 	private Line[] lines;
-	
-	private string nodeDataFile = "Assets/node_data.json";
-	private string startNodeDataFile = "Assets/start_node_data.json";
-	private string lineDataFile = "Assets/line_data.json";
 
+	// Files containing data about the skill tree
+	private string nodeDataFile = "node_data";
+	private string startNodeDataFile = "start_node_data";
+	private string lineDataFile = "line_data";
 
 	void Start () {
 	
@@ -73,7 +73,8 @@ public class NodeSpawner : MonoBehaviour {
 		prevSteps = steps;
 
 		// Read JSON data from file and instantiate nodes
-		JSONObject data = new JSONObject(readDataFile(nodeDataFile));
+		TextAsset fileData = (TextAsset) Resources.Load("node_data");
+		JSONObject data = new JSONObject(fileData.text);
 		if (data.IsArray) {
 			foreach(JSONObject node in data.list) {
 				createNode (node);
@@ -81,7 +82,8 @@ public class NodeSpawner : MonoBehaviour {
 		}
 
 		// Spawn Class starting nodes
-		data = new JSONObject(readDataFile(startNodeDataFile));
+		fileData = (TextAsset) Resources.Load("start_node_data");
+		data = new JSONObject(fileData.text);
 		if (data.IsArray) {
 			foreach(JSONObject startNode in data.list) {
 				createStartNode(startNode);
@@ -113,8 +115,10 @@ public class NodeSpawner : MonoBehaviour {
 		}
 
 		// Render all lines
-		foreach (Line line in lines) {
-				Graphics.DrawMesh (line.mesh, line.position, line.rotation, lineMaterial, line.layer);
+		if (lines != null) {
+			foreach (Line line in lines) {
+					Graphics.DrawMesh (line.mesh, line.position, line.rotation, lineMaterial, line.layer);
+			}
 		}
 	}
 
@@ -173,32 +177,13 @@ public class NodeSpawner : MonoBehaviour {
 	}
 
 
-	/**
-	 * Helper function for reading JSON data files
-	 */
-	private string readDataFile(string filePath) {
-		byte[] buffer;
-		FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read);
-		try {
-			int len = (int)fs.Length;
-			buffer = new byte[len];
-			int count;
-			int sum = 0;
-
-			while((count = fs.Read(buffer, sum, len - sum)) > 0) {
-				sum += count;
-			}
-		}
-		finally {
-			fs.Close();
-		}
-
-		return ASCIIEncoding.ASCII.GetString (buffer);
-	}
-
 	private void createGraphLines() {
 		int i = 0;
-		JSONObject data = new JSONObject(readDataFile(lineDataFile));
+
+		// Read line data from file
+		TextAsset fileData = (TextAsset) Resources.Load("line_data");
+		JSONObject data = new JSONObject(fileData.text);
+
 		if (data.IsArray) {
 			lines = new Line[data.Count];
 			foreach(JSONObject lineData in data.list) {
