@@ -11,6 +11,10 @@ public class NodeSpawner : MonoBehaviour {
 
 	public float lineWidth;
 	private float prevLineWidth;
+
+	public int steps;
+	private int prevSteps;
+
 	public Material lineMaterial;
 	
 	struct Node {
@@ -64,8 +68,9 @@ public class NodeSpawner : MonoBehaviour {
 		// Initialize dictionary of nodes
 		nodes = new Dictionary<long, Node>();
 
-		// Store previous line width
+		// Store previous line width & steps
 		prevLineWidth = lineWidth;
+		prevSteps = steps;
 
 		// Read JSON data from file and instantiate nodes
 		JSONObject data = new JSONObject(readDataFile(nodeDataFile));
@@ -90,24 +95,26 @@ public class NodeSpawner : MonoBehaviour {
 
 	void Update() {
 
-		// Regenerate graph lines if line width has changed
+		// If line width or steps has changed, flag for
+		// line regeneration
+		bool recreateLines = false;
 		if (prevLineWidth != lineWidth) {
 			prevLineWidth = lineWidth;
+			recreateLines = true;
+		}
+		if (prevSteps != steps) {
+			prevSteps = steps;
+			recreateLines = true;
+		}
+
+		// Regenerate lines if necessary
+		if (recreateLines) {
 			createGraphLines();
 		}
 
-//		Line line = lines[2];
-//
-//		Vector3 startPos= new Vector3(line.start_x, line.start_y, 0);
-//		Vector3 endPos = new Vector3(line.end_x, line.end_y, 0);
-//
-//		Graphics.DrawMesh (line.mesh, line.position, line.rotation, lineMaterial, line.layer);
-//		Debug.DrawLine (startPos, endPos, Color.green, 10000f);
-
+		// Render all lines
 		foreach (Line line in lines) {
-			if (line.type == 0) {
 				Graphics.DrawMesh (line.mesh, line.position, line.rotation, lineMaterial, line.layer);
-			}
 		}
 	}
 
@@ -216,7 +223,7 @@ public class NodeSpawner : MonoBehaviour {
 		} else {
 			line.start = lineData.GetField("start").f;
 			line.delta = lineData.GetField("delta").f;
-			line.radius = lineData.GetField("radius").f;
+			line.radius = lineData.GetField("radius").f/100f;
 			line.x = lineData.GetField("x").f/100f;
 			line.y = -lineData.GetField("y").f/100f;
 			createBezierLineMesh(ref line);
@@ -278,7 +285,76 @@ public class NodeSpawner : MonoBehaviour {
 	}
 
 	private void createBezierLineMesh(ref Line line) {
-		// @TODO: Implement me!
+
+		// Start position for the curve
+		Vector3 startPos = new Vector3(line.x, line.y, 1);
+
+		// Vertices should be twice the number of points around the curve
+		Vector3[] verts = new Vector3[(steps + 1) * 2];
+
+		// Create a new mesh for this line
+		Mesh lineMesh = new Mesh();
+
+		// Unity's 0 point on a circle seems to be reversed (or theirs was)
+		// Probably has to do with flipping the y-axis
+		float start = - line.start; 
+		float delta = line.delta;
+		float stepSize = delta/steps;
+
+		// Create vertices
+		float x, y, rad;
+		float[] radii = new float[]{line.radius + (lineWidth/2), line.radius - (lineWidth/2)};
+		for (int i = 0; i <= steps; i++) {
+			rad = start - stepSize * i;
+			for (int r = 0; r < radii.Length; r++) {
+				x = radii[r] * Mathf.Cos (rad);
+				y = radii[r] * Mathf.Sin (rad);
+				verts[2*i + r] = new Vector3(x, y, 1);
+			}
+		}
+		lineMesh.vertices = verts;
+
+
+		// Set up mesh normals
+		Vector3[] norms = new Vector3[(steps + 1) * 2];
+		for(int i = 0; i < norms.Length; i++) {
+			norms[i] = Vector3.up;
+		}
+
+		lineMesh.normals = norms;
+
+		// Set up triangles
+		int t;
+		int[] tris = new int[steps * 2 * 3];
+		for (int s = 0; s < steps; s++) {
+			t = 2*s;
+			tris[3*t]     = 2*s;
+			tris[3*t + 1] = 2*s + 2;
+			tris[3*t + 2] = 2*s + 1;
+			t = 2*s + 1;
+			tris[3*t]     = 2*s + 2;
+			tris[3*t + 1] = 2*s + 3;
+			tris[3*t + 2] = 2*s + 1;
+		}
+		lineMesh.triangles = tris;
+
+		// Set up UV coordinates
+		// @TODO: Actually construct correct UV coordinates
+		lineMesh.uv = new Vector2[verts.Length];
+
+		line.rotation = Quaternion.identity; // Rotation is already accounted for in construction of the line
+		line.position = startPos;
+		line.mesh = lineMesh;
+
+		Node endNode = nodes[line.endNode];
+		Node startNode = nodes[line.startNode];
+		line.end_x = endNode.x;
+		line.end_y = endNode.y;
+		line.start_x = startNode.x;
+		line.start_y = startNode.y;
+		line.layer = LayerMask.NameToLayer("Default");
+
+
 	}
 
 }
