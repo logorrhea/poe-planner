@@ -8,3 +8,4 @@ Temp
 *~
 *.unityproj
 *.DotSettings
+.DS_Store
