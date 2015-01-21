@@ -8,7 +8,14 @@ public class MainCamera : MonoBehaviour {
 	public float minOrthoSize;
 	public float maxOrthoSize;
 	public float minMovement;
+	public float cameraBound;
 
+#if UNITY_EDITOR_WIN
+
+	private Vector2 nil = new Vector2(-99999f, -99999f);
+	private Vector2 lastMousePos;
+
+#endif
 
 	// Use this for initialization
 	void Start () {
@@ -103,6 +110,13 @@ public class MainCamera : MonoBehaviour {
 				Vector2 newMousePos = Input.mousePosition;
 				// Multiply by -1 to get the inverse of the mouse/finger motion
 				movement = lastMousePos - newMousePos;
+				
+				// If movement is large enough, move the camera
+				if (movement.magnitude >= minMovement) {
+					Vector2 velocity = movement/Time.deltaTime;
+					float zoomFactor = moveRate * (camera.orthographicSize / maxOrthoSize) / 10;
+					rigidbody2D.AddForce(velocity * zoomFactor);
+				}
 			}
 
 		// If mouse not pressed, set lastMousePos to null
@@ -117,13 +131,19 @@ public class MainCamera : MonoBehaviour {
 		}
 #endif
 
-
-		// Move the camera if input given
-		if (movement != Vector3.zero) {
-			movement = movement * Time.deltaTime * moveRate;
-			camera.transform.Translate(movement);
+		// Prevent the camera from scrolling far beyond the meaningful part of the graph
+		Vector3 clampedPosition = camera.transform.position;
+		if (camera.transform.position.x > cameraBound) {
+			clampedPosition.x = cameraBound;
+		} else if (camera.transform.position.x < -cameraBound) {
+			clampedPosition.x = -cameraBound;
 		}
-	
+		if (camera.transform.position.y > cameraBound) {
+			clampedPosition.y = cameraBound;
+		} else if (camera.transform.position.y < -cameraBound) {
+			clampedPosition.y = -cameraBound;
+		}
+		camera.transform.position = clampedPosition;
 	}
 
 }

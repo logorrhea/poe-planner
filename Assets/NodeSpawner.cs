@@ -58,11 +58,6 @@ public class NodeSpawner : MonoBehaviour {
 	private Dictionary<long, Node> nodes;
 	private Line[] lines;
 
-	// Files containing data about the skill tree
-	private string nodeDataFile = "node_data";
-	private string startNodeDataFile = "start_node_data";
-	private string lineDataFile = "line_data";
-
 	void Start () {
 	
 		// Initialize dictionary of nodes
