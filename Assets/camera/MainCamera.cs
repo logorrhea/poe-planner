@@ -29,7 +29,7 @@ public class MainCamera : MonoBehaviour {
 
 		// Pan the camera according to mouse movement
 
-#if UNITY_IOS
+#if UNITY_IOS || UNITY_ANDROID
 
 		/**
 		 * PINCH ZOOM
@@ -95,9 +95,8 @@ public class MainCamera : MonoBehaviour {
 			}
 
 		}
-
-	
-#else
+		
+#elif UNITY_WIN
 
 		if (Input.GetMouseButton (0)) {
 
