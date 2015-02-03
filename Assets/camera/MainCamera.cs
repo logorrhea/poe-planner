@@ -29,7 +29,7 @@ public class MainCamera : MonoBehaviour {
 
 		// Pan the camera according to mouse movement
 
-#if UNITY_IOS
+#if UNITY_IOS || UNITY_ANDROID
 
 		/**
 		 * PINCH ZOOM
@@ -95,33 +95,40 @@ public class MainCamera : MonoBehaviour {
 			}
 
 		}
+		
+#elif UNITY_WIN || UNITY_EDITOR_WIN
 
-	
-#else
-
-		if (Input.GetMouseButton (0)) {
-
-			// If lastMousePos is null, record mouse position
-			if (lastMousePos == nil) {
-				lastMousePos = Input.mousePosition;
-			
-			// Otherwise, calculate difference and pan camera accordingly
-			} else {
-				Vector2 newMousePos = Input.mousePosition;
-				// Multiply by -1 to get the inverse of the mouse/finger motion
-				movement = lastMousePos - newMousePos;
-				
-				// If movement is large enough, move the camera
-				if (movement.magnitude >= minMovement) {
-					Vector2 velocity = movement/Time.deltaTime;
-					float zoomFactor = moveRate * (camera.orthographicSize / maxOrthoSize) / 10;
-					rigidbody2D.AddForce(velocity * zoomFactor);
-				}
+		Vector2 newMousePos = Input.mousePosition;
+		// Multiply by -1 to get the inverse of the mouse/finger motion
+		if (lastMousePos != Vector2.zero) {
+			movement = lastMousePos - newMousePos;
+		}
+		
+		// Capture starting mouse position
+		if (Input.GetMouseButtonDown(0)) {
+			lastMousePos = Input.mousePosition;
+		}
+		
+		// If movement is large enough, move the camera
+		if (Input.GetMouseButton(0)) {
+			if (movement.magnitude >= minMovement) {
+				Vector2 velocity = movement/Time.deltaTime;
+				float zoomFactor = moveRate * (camera.orthographicSize / maxOrthoSize);
+				rigidbody2D.AddForce(velocity * zoomFactor);
 			}
-
-		// If mouse not pressed, set lastMousePos to null
-		} else {
-			lastMousePos = nil;
+			lastMousePos = newMousePos;
+		}
+		
+		if (Input.GetMouseButtonUp(0)) {
+			// If it isn't see if we clicked a node
+			if (movement.magnitude < minMovement) {
+				Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+				RaycastHit hit;
+				if (Physics.Raycast(ray, out hit)) {
+					hit.collider.SendMessage("Toggle");
+				}		
+			}
+			lastMousePos = Vector2.zero;
 		}
 
 		// Check for zoom in/out
