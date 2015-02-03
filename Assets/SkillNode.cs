@@ -78,7 +78,7 @@ public class SkillNode : MonoBehaviour {
 		JSONObject locationData = data.GetField("location");
 		location = new Vector2(
 			locationData.GetField("x").f / 100f,   // location x & y are 100x larger than necessary
-			locationData.GetField("y").f) / -100f; // y is inverted
+			locationData.GetField("y").f / -100f); // y is inverted
 
 		// Build the mesh
 		BuildMesh();
