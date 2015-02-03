@@ -10,7 +10,8 @@ public class MainCamera : MonoBehaviour {
 	public float minMovement;
 	public float cameraBound;
 
-#if UNITY_EDITOR_WIN
+
+#if UNITY_EDITOR
 
 	private Vector2 nil = new Vector2(-99999f, -99999f);
 	private Vector2 lastMousePos;
@@ -96,7 +97,7 @@ public class MainCamera : MonoBehaviour {
 
 		}
 		
-#elif UNITY_WIN || UNITY_EDITOR_WIN
+#elif UNITY_EDITOR
 
 		Vector2 newMousePos = Input.mousePosition;
 		// Multiply by -1 to get the inverse of the mouse/finger motion
