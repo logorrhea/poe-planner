@@ -8,6 +8,7 @@ public class NodeSpawner : MonoBehaviour {
 
 	public GameObject[] prefabs;
 	public GameObject startNodePrefab;
+	public GameObject skillNode;
 
 	public float lineWidth;
 	private float prevLineWidth;
@@ -18,7 +19,7 @@ public class NodeSpawner : MonoBehaviour {
 	public Material lineMaterial;
 	
 	struct Node {
-		public long id;
+		public int id;
 		public string name;
 		public float x;
 		public float y;
@@ -28,13 +29,13 @@ public class NodeSpawner : MonoBehaviour {
 
 	// Keep track of the pertinent information about each node
 	// Let the GameObject handle the rendering and such
-	private Dictionary<long, Node> nodes;
+	private Dictionary<int, SkillNode> nodes;
 	private Line[] lines;
 
 	void Start () {
 	
 		// Initialize dictionary of nodes
-		nodes = new Dictionary<long, Node>();
+		nodes = new Dictionary<int, SkillNode>();
 
 		// Store previous line width & steps
 		prevLineWidth = lineWidth;
@@ -44,8 +45,13 @@ public class NodeSpawner : MonoBehaviour {
 		TextAsset fileData = (TextAsset) Resources.Load("node_data");
 		JSONObject data = new JSONObject(fileData.text);
 		if (data.IsArray) {
-			foreach(JSONObject node in data.list) {
-				createNode (node);
+			foreach(JSONObject nodeData in data.list) {
+				// Create new node object, and add it to our dictionary
+				int nodeId = (int)nodeData.GetField("id").f;
+				GameObject nodeObj = (GameObject)Instantiate(skillNode);
+				SkillNode node = nodeObj.GetComponent<SkillNode>();
+				node.SendMessage("InitParams", nodeData);
+				nodes.Add(nodeId, node);
 			}
 		}
 
@@ -85,7 +91,7 @@ public class NodeSpawner : MonoBehaviour {
 		// Render all lines
 		if (lines != null) {
 			foreach (Line line in lines) {
-					Graphics.DrawMesh (line.mesh, line.position, line.rotation, lineMaterial, line.layer);
+				Graphics.DrawMesh (line.mesh, line.position, line.rotation, lineMaterial, line.layer);
 			}
 		}
 	}
@@ -100,7 +106,7 @@ public class NodeSpawner : MonoBehaviour {
 		Node node = new Node();
 		
 		// Get node ID
-		node.id = (long)data.GetField("id").f;
+		node.id = (int)data.GetField("id").f;
 
 		// Get node name
 		node.name = data.GetField ("name").str;
@@ -123,7 +129,7 @@ public class NodeSpawner : MonoBehaviour {
 		node.y = location.GetField("y").f / -100f; // y coords are reversed
 		
 		// Add node to the list of nodes
-		nodes.Add(node.id, node);
+//		nodes.Add(node.id, node);
 		
 		// Create the game object, and instantiate its variables
 		GameObject nodeObj = (GameObject)Instantiate(
@@ -299,12 +305,12 @@ public class NodeSpawner : MonoBehaviour {
 		line.position = startPos;
 		line.mesh = lineMesh;
 
-		Node endNode = nodes[line.endNode];
-		Node startNode = nodes[line.startNode];
-		line.end_x = endNode.x;
-		line.end_y = endNode.y;
-		line.start_x = startNode.x;
-		line.start_y = startNode.y;
+		SkillNode endNode = nodes[line.endNode];
+		SkillNode startNode = nodes[line.startNode];
+		line.end_x = endNode.location.x;
+		line.end_y = endNode.location.y;
+		line.start_x = startNode.location.x;
+		line.start_y = startNode.location.y;
 		line.layer = LayerMask.NameToLayer("Default");
 
 

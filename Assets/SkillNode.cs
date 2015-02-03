@@ -3,21 +3,25 @@ using System.Collections;
 
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
-[RequireComponent(typeof(SpriteRenderer))]
 public class SkillNode : MonoBehaviour {
 
-	public long id;
+	public int id;
 	public string name;
-	public float x;
-	public float y;
 	public int tier;
 	public string[] descriptions;
-	
+
+	public Vector2 size;
+	public Vector2 location;
 	public Vector2 texSize;
 	public Vector2 texCoords;
 	
 	public Sprite[] allocatedBorders;
 	public Sprite[] unallocatedBorders;
+
+	public GameObject borderObj;
+
+	public Material allocatedMaterial;
+	public Material unallocatedMaterial;
 	
 	private float[] sizesX = new float[]{27f, 38f, 53f};
 	private float[] sizesY = new float[]{27f, 38f, 54f};
@@ -29,31 +33,58 @@ public class SkillNode : MonoBehaviour {
 	
 	private SpriteRenderer border;
 	private MeshRenderer meshRenderer;
-	
-	
+
 	void Start() {
-		
+		// Grab reference to border/mesh
+		border = borderObj.GetComponent<SpriteRenderer>();
+		meshRenderer = GetComponent<MeshRenderer>();
+
+		// Set default material/sprite
+		meshRenderer.material = unallocatedMaterial;
+		border.sprite = unallocatedBorder;
 	}
 	
 	// Use this to initialize the object's data
 	public void InitParams(JSONObject data) {
+
+		// Get ID, tier, name, x, and y
+		id = (int)data.GetField("id").f;
+		tier = (int)data.GetField("tier").f;
+		name = data.GetField("name").str;
+
+		// Get description text
+		JSONObject descs = data.GetField("desc");
+		descriptions = new string[descs.Count];
+		int i = 0;
+		foreach (JSONObject val in descs.list) {
+			descriptions[i++] = val.ToString();
+		}
+
+		// Set texture width and height
+		texSize = new Vector2(sizesX[tier], sizesY[tier]);
+
+		// Set mesh size and height
+		size = texSize / 100f;
 		 
-		 // Set tier
-		 tier = (int)data.GetField("tier").f;
-		 
-		 // Set texture width and height
-		 texSize = new Vector2(sizesX[tier], sizesY[tier]);
-		 
-		 // Set texture offset
-		 JSONObject textureData = data.GetField("sprite");
-		 texCoords = new Vector2(textureData.GetField("x").f, textureData.GetField("y").f);
-		 
-		 // Set border sprites
-		 allocatedBorder = allocatedBorders[tier];
-		 unallocatedBorder = unallocatedBorders[tier];
-		 
-		 // Build the mesh
-		 BuildMesh();
+		// Set texture offset
+		JSONObject textureData = data.GetField("sprite");
+		texCoords = new Vector2(textureData.GetField("x").f, textureData.GetField("y").f);
+
+		// Set border sprites
+		allocatedBorder = allocatedBorders[tier];
+		unallocatedBorder = unallocatedBorders[tier];
+
+		// Get node location
+		JSONObject locationData = data.GetField("location");
+		location = new Vector2(
+			locationData.GetField("x").f / 100f,   // location x & y are 100x larger than necessary
+			locationData.GetField("y").f) / -100f; // y is inverted
+
+		// Build the mesh
+		BuildMesh();
+
+		// Move node to proper location
+		transform.position = new Vector3(location.x, location.y, 0);
 	}
 	
 	// Creates a new mesh based on the node data
@@ -66,10 +97,10 @@ public class SkillNode : MonoBehaviour {
 		
 		int[] triangles = new int[6];
 		
-		verts[0] = new Vector3(-texSize.x/2, -texSize.y/2, 0);
-		verts[1] = new Vector3(texSize.x/2, -texSize.y/2, 0);
-		verts[2] = new Vector3(-texSize.x/2, texSize.y/2, 0);
-		verts[3] = new Vector3(texSize.x/2, texSize.y/2, 0);
+		verts[0] = new Vector3(-size.x/2, -size.y/2, 0);
+		verts[1] = new Vector3(size.x/2, -size.y/2, 0);
+		verts[2] = new Vector3(-size.x/2, size.y/2, 0);
+		verts[3] = new Vector3(size.x/2, size.y/2, 0);
 		
 		normals[0] = Vector3.up;
 		normals[1] = Vector3.up;

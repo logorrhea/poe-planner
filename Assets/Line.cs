@@ -2,8 +2,10 @@
 using System.Collections;
 
 public struct Line {
-	public long startNode;
-	public long endNode;
+
+	// Nodes that this line connects
+	public int startNode;
+	public int endNode;
 	
 	// 0 = straight
 	// 1 = curved
@@ -27,4 +29,6 @@ public struct Line {
 	public Quaternion rotation;
 	public Vector3 position;
 	public int layer;
+
 }
+
