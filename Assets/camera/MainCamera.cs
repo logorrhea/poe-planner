@@ -10,6 +10,8 @@ public class MainCamera : MonoBehaviour {
 	public float minMovement;
 	public float cameraBound;
 
+	public GameObject nodeSpawnerObj;
+	private NodeSpawner nodeSpawner;
 
 #if UNITY_EDITOR
 
@@ -20,7 +22,7 @@ public class MainCamera : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-//		lastMousePos = nil;
+		nodeSpawner = nodeSpawnerObj.GetComponent<NodeSpawner>();
 	}
 	
 	// Update is called once per frame
@@ -128,7 +130,8 @@ public class MainCamera : MonoBehaviour {
 				if (Physics.Raycast(ray, out hit)) {
 					SkillNode node = hit.collider.GetComponent<SkillNode>();
 					// TODO(tyler): Some kinda magic here to determine whether or not this node can be allocated
-					hit.collider.SendMessage("Toggle");
+					nodeSpawner.SendMessage("ToggleNode", hit.collider.gameObject.GetComponent<SkillNode>());
+//					hit.collider.SendMessage("Toggle");
 				}		
 			}
 			lastMousePos = Vector2.zero;

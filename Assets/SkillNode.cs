@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
@@ -10,6 +10,7 @@ public class SkillNode : MonoBehaviour {
 	public int tier;
 	public string[] descriptions;
 	public bool allocated;
+	public bool isRootNode = false;
 
 	public Vector2 size;
 	public Vector2 location;
@@ -26,6 +27,7 @@ public class SkillNode : MonoBehaviour {
 	
 	private float[] sizesX = new float[]{27f, 38f, 53f};
 	private float[] sizesY = new float[]{27f, 38f, 54f};
+	private float[] colliderSizes = new float[]{0.2f, 0.3f, 0.4f};
 
 	private Sprite allocatedBorder;
 	private Sprite unallocatedBorder;
@@ -34,6 +36,8 @@ public class SkillNode : MonoBehaviour {
 	
 	private SpriteRenderer border;
 	private MeshRenderer meshRenderer;
+
+	public int[] connectedNodes;
 	
 
 	void Start() {
@@ -50,14 +54,22 @@ public class SkillNode : MonoBehaviour {
 	public void InitParams(JSONObject data) {
 
 		// Get ID, tier, name, x, and y
-		id = (int)data.GetField("id").f;
-		tier = (int)data.GetField("tier").f;
+		id = int.Parse(data.GetField("id").str);
+		tier = int.Parse(data.GetField("tier").str);
 		name = data.GetField("name").str;
+
+		// Get connecting node ids
+		List<JSONObject> connections = data.GetField("connections").list;
+		connectedNodes = new int[connections.Count];
+		int i = 0;
+		foreach (JSONObject conn in connections) {
+			connectedNodes[i++] = int.Parse(conn.str);
+		}
 
 		// Get description text
 		JSONObject descs = data.GetField("desc");
 		descriptions = new string[descs.Count];
-		int i = 0;
+		i = 0;
 		foreach (JSONObject val in descs.list) {
 			descriptions[i++] = val.ToString();
 		}
@@ -67,10 +79,16 @@ public class SkillNode : MonoBehaviour {
 
 		// Set mesh size and height
 		size = texSize / 100f;
+
+		// Change collider radius according to node tier
+		SphereCollider sphereCollider = (SphereCollider) collider;
+		sphereCollider.radius = colliderSizes[tier];
 		 
 		// Set texture offset
 		JSONObject textureData = data.GetField("sprite");
-		texCoords = new Vector2(textureData.GetField("x").f, textureData.GetField("y").f);
+		texCoords = new Vector2(
+				int.Parse(textureData.GetField("x").str),
+		    	int.Parse(textureData.GetField("y").str));
 
 		// Set border sprites
 		allocatedBorder = allocatedBorders[tier];
@@ -79,8 +97,8 @@ public class SkillNode : MonoBehaviour {
 		// Get node location
 		JSONObject locationData = data.GetField("location");
 		location = new Vector2(
-			locationData.GetField("x").f / 100f,   // location x & y are 100x larger than necessary
-			locationData.GetField("y").f / -100f); // y is inverted
+			(float)decimal.Parse(locationData.GetField("x").str) / 100f,   // location x & y are 100x larger than necessary
+			(float)decimal.Parse(locationData.GetField("y").str) / -100f); // y is inverted
 
 		// Build the mesh
 		BuildMesh();
@@ -152,4 +170,5 @@ public class SkillNode : MonoBehaviour {
 			meshRenderer.material = allocatedMaterial;
 		}
 	}
+
 }

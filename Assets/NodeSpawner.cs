@@ -31,36 +31,48 @@ public class NodeSpawner : MonoBehaviour {
 	// Let the GameObject handle the rendering and such
 	private Dictionary<int, SkillNode> nodes;
 	private Line[] lines;
+	private int[] classNodeIds;
 
 	void Start () {
-	
-		// Initialize dictionary of nodes
+		// Initialize dictionaries
 		nodes = new Dictionary<int, SkillNode>();
 
 		// Store previous line width & steps
 		prevLineWidth = lineWidth;
 		prevSteps = steps;
 
-		// Read JSON data from file and instantiate nodes
-		TextAsset fileData = (TextAsset) Resources.Load("node_data");
+		// Spawn Class starting nodes
+		TextAsset fileData = (TextAsset) Resources.Load("start_node_data");
 		JSONObject data = new JSONObject(fileData.text);
 		if (data.IsArray) {
-			foreach(JSONObject nodeData in data.list) {
-				// Create new node object, and add it to our dictionary
-				int nodeId = (int)nodeData.GetField("id").f;
-				GameObject nodeObj = (GameObject)Instantiate(skillNode);
-				SkillNode node = nodeObj.GetComponent<SkillNode>();
-				node.SendMessage("InitParams", nodeData);
-				nodes.Add(nodeId, node);
+			classNodeIds = new int[data.list.Count];
+			int i = 0;
+			foreach(JSONObject startNode in data.list) {
+				createStartNode(startNode);
+				classNodeIds[i++] = (int)startNode.GetField("id").f;
 			}
 		}
 
-		// Spawn Class starting nodes
-		fileData = (TextAsset) Resources.Load("start_node_data");
+		// Read JSON data from file and instantiate nodes
+		fileData = (TextAsset) Resources.Load("combined_node_data");
 		data = new JSONObject(fileData.text);
 		if (data.IsArray) {
-			foreach(JSONObject startNode in data.list) {
-				createStartNode(startNode);
+			foreach(JSONObject nodeData in data.list) {
+				// Create new node object, and add it to our dictionary
+				int nodeId = int.Parse(nodeData.GetField("id").str);
+				GameObject nodeObj = (GameObject)Instantiate(skillNode);
+				SkillNode node = nodeObj.GetComponent<SkillNode>();
+				node.SendMessage("InitParams", nodeData);
+				// Check if node is a root node (attached to a class node)
+				foreach(int nid in node.connectedNodes) {
+					foreach(int cnid in classNodeIds) {
+						if (nid == cnid) {
+							node.isRootNode = true;
+							break;
+						}
+					}
+				}
+				nodes.Add(nodeId, node);
 			}
 		}
 
@@ -96,48 +108,6 @@ public class NodeSpawner : MonoBehaviour {
 		}
 	}
 
-
-	/**
-	 * Creates a new skill node given the JSONObject containing the
-	 * information about that node.
-	 */
-	private void createNode(JSONObject data) {
-	
-		Node node = new Node();
-		
-		// Get node ID
-		node.id = (int)data.GetField("id").f;
-
-		// Get node name
-		node.name = data.GetField ("name").str;
-
-		// Get description text
-		JSONObject descs = data.GetField ("desc");
-		node.desc = new string[descs.Count];
-		int i = 0;
-		foreach(JSONObject val in descs.list) {
-			node.desc[i] = val.ToString();
-			i++;
-		}
-
-		// Determine node tier (minor, major, keystone)
-		node.tier = (int)data.GetField ("tier").f;
-
-		// Determine node position
-		JSONObject location = data.GetField("location");
-		node.x = location.GetField("x").f / 100f;  // x & y are 100x larger than necessary
-		node.y = location.GetField("y").f / -100f; // y coords are reversed
-		
-		// Add node to the list of nodes
-//		nodes.Add(node.id, node);
-		
-		// Create the game object, and instantiate its variables
-		GameObject nodeObj = (GameObject)Instantiate(
-			prefabs[node.tier],
-			new Vector3(node.x, node.y, 0),
-			Quaternion.identity);
-		nodeObj.SendMessage ("InitiateParams", data);
-	}
 
 	private void createStartNode(JSONObject data) {
 
@@ -313,7 +283,23 @@ public class NodeSpawner : MonoBehaviour {
 		line.start_y = startNode.location.y;
 		line.layer = LayerMask.NameToLayer("Default");
 
+	}
 
+	public void ToggleNode(SkillNode node) {
+		// If node is a root node, it is always togglable
+		if (node.isRootNode) {
+			node.SendMessage("Toggle");
+		
+		// If it isn't a root node, check the nodes next to it to make sure
+		// that at least one of them is active
+		} else {
+			foreach (int nid in node.connectedNodes) {
+				if (nodes[nid].allocated) {
+					node.SendMessage("Toggle");
+					break;
+				}
+			}
+		}
 	}
 
 }
