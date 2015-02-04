@@ -9,6 +9,7 @@ public class SkillNode : MonoBehaviour {
 	public string name;
 	public int tier;
 	public string[] descriptions;
+	public bool allocated;
 
 	public Vector2 size;
 	public Vector2 location;
@@ -33,6 +34,7 @@ public class SkillNode : MonoBehaviour {
 	
 	private SpriteRenderer border;
 	private MeshRenderer meshRenderer;
+	
 
 	void Start() {
 		// Grab reference to border/mesh
@@ -137,5 +139,17 @@ public class SkillNode : MonoBehaviour {
 		
 		// Assign new mesh to meshFilter and meshCollider
 		meshFilter.mesh = mesh;
+	}
+
+	public void Toggle() {
+		if (allocated) {
+			allocated = false;
+			border.sprite = unallocatedBorder;
+			meshRenderer.material = unallocatedMaterial;
+		} else {
+			allocated = true;
+			border.sprite = allocatedBorder;
+			meshRenderer.material = allocatedMaterial;
+		}
 	}
 }

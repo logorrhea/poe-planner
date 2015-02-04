@@ -126,6 +126,8 @@ public class MainCamera : MonoBehaviour {
 				Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 				RaycastHit hit;
 				if (Physics.Raycast(ray, out hit)) {
+					SkillNode node = hit.collider.GetComponent<SkillNode>();
+					// TODO(tyler): Some kinda magic here to determine whether or not this node can be allocated
 					hit.collider.SendMessage("Toggle");
 				}		
 			}
