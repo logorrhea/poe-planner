@@ -287,18 +287,24 @@ public class NodeSpawner : MonoBehaviour {
 
 	public void ToggleNode(SkillNode node) {
 		// If node is a root node, it is always togglable
+		bool toggleable = false;
 		if (node.isRootNode) {
-			node.SendMessage("Toggle");
+			toggleable = true;
 		
 		// If it isn't a root node, check the nodes next to it to make sure
 		// that at least one of them is active
 		} else {
 			foreach (int nid in node.connectedNodes) {
 				if (nodes[nid].allocated) {
-					node.SendMessage("Toggle");
+					toggleable = true;
 					break;
 				}
 			}
+		}
+
+		if (toggleable) {
+			node.SendMessage("Toggle");
+			//TODO(tyler): Need to deactivate all nodes that were relying on this node to connect to a root node
 		}
 	}
 

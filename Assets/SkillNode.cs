@@ -6,7 +6,6 @@ using System.Collections.Generic;
 public class SkillNode : MonoBehaviour {
 
 	public int id;
-	public string name;
 	public int tier;
 	public string[] descriptions;
 	public bool allocated;
@@ -164,6 +163,7 @@ public class SkillNode : MonoBehaviour {
 			allocated = false;
 			border.sprite = unallocatedBorder;
 			meshRenderer.material = unallocatedMaterial;
+
 		} else {
 			allocated = true;
 			border.sprite = allocatedBorder;

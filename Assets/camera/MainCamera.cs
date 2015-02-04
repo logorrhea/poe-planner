@@ -15,7 +15,6 @@ public class MainCamera : MonoBehaviour {
 
 #if UNITY_EDITOR
 
-	private Vector2 nil = new Vector2(-99999f, -99999f);
 	private Vector2 lastMousePos;
 
 #endif
@@ -129,9 +128,7 @@ public class MainCamera : MonoBehaviour {
 				RaycastHit hit;
 				if (Physics.Raycast(ray, out hit)) {
 					SkillNode node = hit.collider.GetComponent<SkillNode>();
-					// TODO(tyler): Some kinda magic here to determine whether or not this node can be allocated
-					nodeSpawner.SendMessage("ToggleNode", hit.collider.gameObject.GetComponent<SkillNode>());
-//					hit.collider.SendMessage("Toggle");
+					nodeSpawner.SendMessage("ToggleNode", node);
 				}		
 			}
 			lastMousePos = Vector2.zero;
