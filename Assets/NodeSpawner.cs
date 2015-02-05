@@ -18,14 +18,6 @@ public class NodeSpawner : MonoBehaviour {
 
 	public Material lineMaterial;
 	
-	struct Node {
-		public int id;
-		public string name;
-		public float x;
-		public float y;
-		public int tier;
-		public string[] desc;
-	}
 
 	// Keep track of the pertinent information about each node
 	// Let the GameObject handle the rendering and such
