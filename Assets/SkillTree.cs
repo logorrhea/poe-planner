@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 public class SkillTree {
 
-	struct Node {
+	private struct Node {
 		public int id;
-		public List<int> children;
-		public List<int> parents;
+		public List<Node> children;
+		public List<Node> parents;
 		public bool IsRoot
 		{
 			get
@@ -22,15 +22,31 @@ public class SkillTree {
 			}
 		}
 	}
-
+	
 	List<Node> rootNodes;
 
-	public void AddChild(int cid, int pid) {
-		Node parent = FindNode(pid);
+	public void AddChild(int childId, int parentId) {
+		Node n = new Node();
+		n.id = childId;
+		if (rootNodes.Count == 0) {
+			rootNodes.Add(n);
+		}
+		Node parent = FindNode(parentId, rootNodes);
 	}
 
-	private Node FindNode(int id) {
-
+	private Node FindNode(int id, List<Node> nodes) {
+		Node match;
+		foreach (Node n in nodes) {
+			if (n.id == id) {
+				match = n;
+			} else {
+				match = FindNode(id, n.children);
+			}
+			if (match != null) {
+				break;
+			}
+		}
+		return match;
 	}
 
 }
